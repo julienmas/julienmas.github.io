@@ -67,6 +67,10 @@ body{
 
 p{text-indent: 5%;}
 strong{font-weight: bold;}
+a{
+	text-decoration: none;
+	color: var(--main-color);	
+}
 
 header{
 	background: white;
@@ -124,7 +128,7 @@ section h2{
 	padding-bottom: 0px;
 	display: flex;
 }
-#presentation{
+.presentation{
 	width: 40%;
 	display: flex;
 	flex-wrap: wrap;
@@ -133,22 +137,22 @@ section h2{
 	margin: 50px 50px 0px 50px; 
 	background-color: white;
 }
-#presentation ul{
+.presentation ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	background: var(--main-color);
 	padding: 10px;
 }
-#presentation ul li{
+.presentation ul li{
 	list-style: none;
 }
-#presentation .icon{
+.presentation .icon{
 	width: 25px;
 	height: auto;	
 }
 
-#brief p{
+.brief p{
 	width: 70%;
 	margin: auto;
 	line-height: 1.5em;
