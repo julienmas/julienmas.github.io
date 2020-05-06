@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
@@ -64,7 +64,9 @@
 				</div>
 				<div class="container right">
 					<h3 class="name">Mines St-Etienne</h3>
-					<p class="description">Engineering degree in microelectronics & computer science. Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<p class="description">Engineering degree in microelectronics & computer science.</p>
+					<p class="hidden">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<p class="read">Read more</p>
 				</div>
 			</li>
 			<li class="timeline_element" id="prep">
@@ -189,5 +191,7 @@
 			<li>Background picture : © Cedric Daya</li>
 		</ul>
 	</footer>
+
+	<script type="text/javascript" src="julienmastrangelo.js"></script>
 </body>
 </html>
