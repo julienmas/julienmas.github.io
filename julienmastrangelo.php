@@ -181,10 +181,10 @@
 	<section id="contact">
 		<h2>Contact</h2>
 		<form method="post" action="contact.php">
-				<label for="name"></label><input id="name" type="text" name="name" placeholder="Name" maxlength="64">
-				<label for="email"></label><input id="email" type="email" name="email" placeholder="E-mail" maxlength="128">
-				<label for="phone"></label><input id="phone" type="tel" name="phone" placeholder="Phone" maxlength="16">
-				<textarea id="message" name="message" placeholder="Your message (1024 characters max.)" maxlength="1024"></textarea>
+				<label for="name"></label><input id="name" type="text" name="name" placeholder="Name" maxlength="63">
+				<label for="email"></label><input id="email" type="email" name="email" placeholder="E-mail" maxlength="127">
+				<label for="phone"></label><input id="phone" type="tel" name="phone" placeholder="Phone" maxlength="15">
+				<textarea id="message" name="message" placeholder="Your message (1023 characters max.)" maxlength="1023"></textarea>
 				<input type="submit" value="Submit">
 		</form>
 		<div class="presentation">
