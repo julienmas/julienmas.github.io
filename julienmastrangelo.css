@@ -281,6 +281,19 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
+#contact .content{
+	display: flex;
+}
+#contact form{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+#contact .input{
+	height: 40px;
+	margin: 5px;
+}
+
 footer{
 	background-color: var(--main-color);
 	padding: 1%;
