@@ -159,6 +159,7 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
+		<p>les entreps, blockchain vote, voiture laser, site web perso</p>
 	</section>
 
 	<section id="hobbies">
