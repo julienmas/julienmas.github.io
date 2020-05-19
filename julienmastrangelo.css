@@ -52,6 +52,7 @@
     font-style: normal;
 }
 
+/* Main elements */
 html {
   scroll-behavior: smooth;
 }
@@ -86,11 +87,6 @@ header h1{
 	flex: 1;
 	margin: 20px;
 }
-header a{
-	text-decoration: none;
-	color: var(--main-color);
-}
-header a:hover{color: var(--snd-color);}
 header nav{flex: 2;}
 header ul{
 	list-style-type: none;
@@ -99,6 +95,7 @@ header ul{
 	/*margin-right: 15px;*/
 }
 header ul li{margin-left: 10px;}
+header ul li a:hover{color: var(--snd-color);}
 
 section{
 	display: flex;
@@ -119,6 +116,19 @@ section h2{
 	border-bottom: 1px solid var(--snd-color);
 }
 
+a{
+	text-decoration: none;
+	color: var(--main-color);
+}
+.link{
+	width: 15px;
+	height: auto;
+	padding: 3px;
+}
+
+/* Details */
+
+/* Overview */
 #block1{
 	background: center no-repeat url('img/emse.jpeg');
 	padding-bottom: 0px;
@@ -155,6 +165,7 @@ section h2{
 	text-align: center;
 }
 
+/* Timelines (education & experience) */
 .history-timeline-container{
 	width:70%;
 	margin:auto;
@@ -203,11 +214,12 @@ ul.timeline li .left .date{
 
 
 ul.timeline li .right{
+	z-index: 2;
 	padding: 0 0 20px 30px;
 }
 .right:after {
 	content:"";
-
+	z-index: 0;
 	top: 0;
   	left: 0;
   	bottom: 0;
@@ -219,7 +231,6 @@ ul.timeline li .right{
 	background: url(img/minesste.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: 1;
 }
 #NPS .right:hover:after{
 	opacity: 0.2;
@@ -236,6 +247,7 @@ ul.timeline li .right{
 	z-index: 1;
 }
 
+/* skills */
 #skills ul{
 	width: 100%;
 	display: flex;
@@ -267,6 +279,7 @@ ul.timeline li .right{
 }
 #skills ul li:hover p{opacity: 1;}
 
+/*hobbies*/
 #hobbies .content{
 	display: flex;
 	flex-direction: row;
@@ -277,6 +290,7 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
+/* footer (credits) */
 footer{
 	background-color: var(--main-color);
 	padding: 1%;
