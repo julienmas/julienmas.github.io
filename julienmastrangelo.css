@@ -214,17 +214,18 @@ ul.timeline li .left .date{
 
 
 ul.timeline li .right{
+	position: relative;
 	z-index: 2;
 	padding: 0 0 20px 30px;
 }
 .right:after {
 	content:"";
-	z-index: 0;
+  	position: absolute;
+	z-index: 1;
 	top: 0;
   	left: 0;
   	bottom: 0;
   	right: 0;
-  	position: absolute;
 }
 #mines .right:hover:after{
 	opacity: 0.2;
