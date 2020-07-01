@@ -195,7 +195,7 @@
 				<div class="details">
 					<h2>Julien Mastrangelo</h2>
 					<h3>STUDENT ENGINEERING</h3>
-					<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">ulien.mastrangelo@etu.emse.fr</a></p>
+					<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				</div>
 				<ul class="social_network">
 					<li class="linkedin">

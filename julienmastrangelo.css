@@ -134,7 +134,7 @@ section h2{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	margin: 50px 50px 0px 50px; 
+	margin: 50px 50px 0px 50px;
 	background-color: white;
 }
 .presentation ul{
@@ -281,18 +281,30 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
-#contact .content{
+#contact .content{ /* .content identique avec #hobbies */
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 #contact form{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+	padding: 0px 0 50px 0;
 }
-#contact .input{
+#contact input{
 	height: 40px;
 	margin: 5px;
+	border-radius: 5px;
 }
+#contact textarea{
+	height: 120px;
+	margin: 5px;
+}
+#contact .presentation{
+	margin: 0;
+}
+#contact .presentation h2{margin: 0;}
 
 footer{
 	background-color: var(--main-color);
