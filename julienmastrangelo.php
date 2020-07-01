@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
@@ -63,8 +64,10 @@
 					<h3 class="degree">Engineer degree</h3>
 				</div>
 				<div class="container right">
-					<h3 class="name">Mines St-Etienne</h3>
-					<p class="description">Engineering degree in microelectronics & computer science. Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
+					<p class="description">Engineering degree in microelectronics & computer science.</p>
+					<p class="hidden">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<p class="read">Read more</p>
 				</div>
 			</li>
 			<li class="timeline_element" id="prep">
@@ -78,7 +81,7 @@
 					Two-year intensive preparation for the national competitive entrance exams to leading French engineering schools. Maths, physics, computer science.</p>
 				</div>
 			</li>
-			<li class="timeline_element" id="prep">
+			<li class="timeline_element" id="bac">
 				<div class="container left">
 					<p class="date">2017</p>
 					<h3 class="degree">Baccalaureate</h3>
@@ -141,6 +144,7 @@
 		<h2 class="title">Computer skills</h2>
 		<ul>
 			<li><img class="icon" src="img/c.png" /><p>C language</p></li>
+			<li><img class="icon" src="img/python.png" /><p>Python 3</p></li>
 			<li><img class="icon" src="img/html5.png" /><p>HTML5</p></li>
 			<li><img class="icon" src="img/css3.png" /><p>CSS3</p></li>
 			<li><img class="icon" src="img/sql.png"><p>SQL</p></li>
@@ -157,6 +161,20 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
+		<p>les entreps, blockchain vote, voiture laser, site web perso</p>
+		<div id="entrep">
+			<h3>Les Entrepreunariales</h3>
+			<img src="img/logo-les-entrep.png"/>
+			<p></p>
+		</div>
+		<div id="car">
+			<h3>Autonomous car model</h3>
+			<img src="" id="car_pic"/>
+			<a href="" class="code"></a>
+		</div>
+		<div id="website">
+			
+		</div>
 	</section>
 
 	<section id="hobbies">
@@ -209,9 +227,11 @@
 	<footer>
 		<h3>Credits</h3>
 		<ul>
-			<li>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+			<li>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
 			<li>Background picture : © Cedric Daya</li>
 		</ul>
 	</footer>
+
+	<script type="text/javascript" src="julienmastrangelo.js"></script>
 </body>
 </html>
