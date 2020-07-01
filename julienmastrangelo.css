@@ -68,6 +68,10 @@ body{
 
 p{text-indent: 5%;}
 strong{font-weight: bold;}
+a{
+	text-decoration: none;
+	color: var(--main-color);	
+}
 
 header{
 	background: white;
@@ -134,31 +138,31 @@ a{
 	padding-bottom: 0px;
 	display: flex;
 }
-#presentation{
+.presentation{
 	width: 40%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	margin: 50px 50px 0px 50px; 
+	margin: 50px 50px 0px 50px;
 	background-color: white;
 }
-#presentation ul{
+.presentation ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	background: var(--main-color);
 	padding: 10px;
 }
-#presentation ul li{
+.presentation ul li{
 	list-style: none;
 }
-#presentation .icon{
+.presentation .icon{
 	width: 25px;
 	height: auto;	
 }
 
-#brief p{
+.brief p{
 	width: 70%;
 	margin: auto;
 	line-height: 1.5em;
@@ -291,7 +295,32 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
-/* footer (credits) */
+
+#contact .content{ /* .content identique avec #hobbies */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#contact form{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 0 50px 0;
+}
+#contact input{
+	height: 40px;
+	margin: 5px;
+	border-radius: 5px;
+}
+#contact textarea{
+	height: 120px;
+	margin: 5px;
+}
+#contact .presentation{
+	margin: 0;
+}
+#contact .presentation h2{margin: 0;}
+
 footer{
 	background-color: var(--main-color);
 	padding: 1%;

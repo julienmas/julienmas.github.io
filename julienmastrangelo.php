@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
@@ -15,23 +16,23 @@
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#hobbies">Interests</a></li>
-				<!--<li><a href="#contact">Contact</a></li>-->
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<section id="block1">
-		<div id="presentation">
+		<div class="presentation">
 			<div id="profile_picture"></div>
-			<div id="details">
+			<div class="details">
 				<h2>Julien Mastrangelo</h2>
 				<h3>STUDENT ENGINEERING</h3>
-				<p><strong>Email: </strong> julien.mastrangelo@etu.emse.fr</p>
+				<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				<p><strong>City: </strong>Aix-en-Provence, France</p>
 				<p><strong>Age: </strong>20</p>
 			</div>
-			<ul id="social_network">
-				<li id="linkedin">
+			<ul class="social_network">
+				<li class="linkedin">
 					<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 				</li>
 				<li id="github">
@@ -196,7 +197,31 @@
 	</section>
 
 	<section id="contact">
-		
+		<h2>Contact</h2>
+		<div class="content">
+			<form method="post" action="contact.php">
+					<label for="name"></label>
+					<input id="name" type="text" name="name" placeholder="Name *" maxlength="63" required class="input">
+					<label for="email"></label>
+					<input id="email" type="email" name="email" placeholder="E-mail *" maxlength="127" required class="input">
+					<label for="phone"></label>
+					<input id="phone" type="tel" name="phone" placeholder="Phone" maxlength="15" class="input">
+					<textarea id="message" name="message" placeholder="Your message (1023 characters max.)" maxlength="1023" required class="input"></textarea>
+					<input type="submit" value="Submit" id="submit">
+			</form>
+			<div class="presentation">
+				<div class="details">
+					<h2>Julien Mastrangelo</h2>
+					<h3>STUDENT ENGINEERING</h3>
+					<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
+				</div>
+				<ul class="social_network">
+					<li class="linkedin">
+						<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</section>
 
 	<footer>
