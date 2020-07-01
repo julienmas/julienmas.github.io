@@ -143,6 +143,7 @@
 		<h2 class="title">Computer skills</h2>
 		<ul>
 			<li><img class="icon" src="img/c.png" /><p>C language</p></li>
+			<li><img class="icon" src="img/python.png" /><p>Python 3</p></li>
 			<li><img class="icon" src="img/html5.png" /><p>HTML5</p></li>
 			<li><img class="icon" src="img/css3.png" /><p>CSS3</p></li>
 			<li><img class="icon" src="img/sql.png"><p>SQL</p></li>
