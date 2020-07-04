@@ -23,13 +23,13 @@
 
 	<section id="block1">
 		<div class="presentation">
-			<div id="profile_picture"></div>
+			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
 				<h3>STUDENT ENGINEERING</h3>
 				<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				<p><strong>City: </strong>Aix-en-Provence, France</p>
-				<p><strong>Age: </strong>20</p>
+				<p><strong>Age: </strong>21</p>
 			</div>
 			<ul class="social_network">
 				<li class="linkedin">
@@ -65,9 +65,9 @@
 				</div>
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
-					<p class="description">Engineering degree in microelectronics & computer science.</p>
+					<p class="description">Engineering degree in microelectronics & computer science.
 					<p class="hidden">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
-					<p class="read">Read more</p>
+					<p class="read">Read more</p></p>
 				</div>
 			</li>
 			<li class="timeline_element" id="prep">
@@ -219,6 +219,9 @@
 					<li class="linkedin">
 						<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 					</li>
+				<li id="pdf">
+					<a href="Julien_MASTRANGELO_CV_2020_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+				</li>
 				</ul>
 			</div>
 		</div>

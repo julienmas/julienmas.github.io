@@ -139,14 +139,24 @@ a{
 	display: flex;
 }
 .presentation{
-	width: 40%;
+	width: 50%;
 	display: flex;
+	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
 	margin: 50px 50px 0px 50px;
 	background-color: white;
 }
+.presentation #profile_picture{
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	border: 1px solid var(--snd-color);
+	border-radius: 100%;
+	margin: 30px;
+}
+.presentation h3{text-align: center;}
 .presentation ul{
 	width: 100%;
 	display: flex;
@@ -236,6 +246,7 @@ ul.timeline li .right{
 	background: url(img/minesste.png) no-repeat;
 	background-size: contain;
 	background-position: center;
+	z-index: 0;
 }
 #NPS .right:hover:after{
 	opacity: 0.2;
