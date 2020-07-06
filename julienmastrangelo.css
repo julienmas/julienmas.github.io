@@ -72,6 +72,26 @@ a{
 	text-decoration: none;
 	color: var(--main-color);	
 }
+button, #submit{
+	outline: none;
+	height: 30px;
+	text-align: center;
+	width: 100px;
+	border-radius: 30px;
+	background: white;
+	border: 1px solid var(--main-color);
+	color: var(--main-color);
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+button:hover, #submit:hover{
+		color: white;
+		background: var(--main-color);
+}
+button:active, #submit:active{
+	border-color: white;
+	/*letter-spacing: 0px;*/
+}
 
 header{
 	background: white;
@@ -120,15 +140,12 @@ section h2{
 	border-bottom: 1px solid var(--snd-color);
 }
 
-a{
-	text-decoration: none;
-	color: var(--main-color);
-}
 .link{
 	width: 15px;
 	height: auto;
 	padding: 3px;
 }
+.more {display: none;}
 
 /* Details */
 
@@ -145,34 +162,44 @@ a{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	margin: 50px 50px 0px 50px;
+	margin: 50px 0px 50px 50px;
 	background-color: white;
 }
-.presentation #profile_picture{
-	width: 200px;
-	height: 200px;
+#profile_picture{
+	width: 230px;
+	height: 230px;
 	padding: 5px;
 	border: 1px solid var(--snd-color);
 	border-radius: 100%;
-	margin: 30px;
+	margin: 25px 19px 0px 19px;
+	transform: scale(1);
+    transition: transform 400ms;
+	/*&:hover {
+        transform: scale(1.15);
+    }*/
+}
+#profile_picture:hover{
+	transform: scale(1.13);
+	border: 2px solid var(--snd-color);
 }
 .presentation h3{text-align: center;}
 .presentation ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	background: var(--main-color);
-	padding: 10px;
+	padding: 5px;
 }
 .presentation ul li{
 	list-style: none;
 }
 .presentation .icon{
-	width: 25px;
+	width: 30px;
 	height: auto;	
 }
-
-.brief p{
+#brief {padding-top: 0px;}
+#brief p{
 	width: 70%;
 	margin: auto;
 	line-height: 1.5em;
@@ -231,6 +258,7 @@ ul.timeline li .right{
 	position: relative;
 	z-index: 2;
 	padding: 0 0 20px 30px;
+	width: 100%;
 }
 .right:after {
 	content:"";
@@ -246,21 +274,24 @@ ul.timeline li .right{
 	background: url(img/minesste.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: 0;
+	z-index: -1;
 }
 #NPS .right:hover:after{
 	opacity: 0.2;
 	background: url(img/NPS_Diesel.jpg) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: 1;
+	z-index: -1;
 }
 #CNRS .right:hover:after{
 	opacity: 0.2;
 	background: url(img/cnrs.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: 1;
+	z-index: -1;
+}
+ul.timeline li button{
+	margin: 0 0 20px 50px;
 }
 
 /* skills */
@@ -295,6 +326,12 @@ ul.timeline li .right{
 }
 #skills ul li:hover p{opacity: 1;}
 
+/*projects*/
+#entrep img{
+	width: 200px;
+	height: auto;
+}
+
 /*hobbies*/
 #hobbies .content{
 	display: flex;
@@ -316,19 +353,31 @@ ul.timeline li .right{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	padding: 0px 0 50px 0;
+	align-items: center;
+	padding: 0px 20px 50px 0;
 }
-#contact input{
+#contact .input{
 	height: 40px;
+	width: 100%;
 	margin: 5px;
 	border-radius: 5px;
 }
 #contact textarea{
-	height: 120px;
-	margin: 5px;
+	min-height: 120px;
+	height: 50%;
+	width: 100%;
+	margin: 10px;
+	border-radius: 5px;
+}
+#submit{
+	margin-top: 10px;
 }
 #contact .presentation{
 	margin: 0;
+}
+#contact #profile_picture{
+	width: 150px;
+	height: 150px;
 }
 #contact .presentation h2{margin: 0;}
 

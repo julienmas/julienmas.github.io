@@ -21,7 +21,7 @@
 		</nav>
 	</header>
 
-	<section id="block1">
+	<section id="block1" title="St-Etienne School of Mines">
 		<div class="presentation">
 			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
@@ -36,10 +36,10 @@
 					<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 				</li>
 				<li id="github">
-					<a><img class="icon" src="img/github.png" alt="github" title="github"></a>
+					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
 				</li>
 				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				<li id="mailto">
 					<a href="mailto:julien.mastrangelo@etu.emse.fr"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
@@ -50,14 +50,13 @@
 
 	<section id="brief">
 		<h2>Hello! I'm Julien</h2>
-		<p>I am a rigorous and motivated engineering student from l’Ecole des Mines de St-Etienne. I am recognized for my ability to fit into a work team. I have a taken part in a variety of project such as building a model car capable of staying between 2 laser beams independently or creating a business plan for a new indoor connected warehouse. I am looking for a position in an R&D department or in a laboratory, where I can use my creativity and my technical skills.</p>
+		<p>I am a rigorous and motivated engineering student from l’Ecole des Mines de St-Etienne. I am recognized for my ability to fit into a work team. I am looking for a position in a laboratory or in an R&D department, where I can use my creativity and my technical skills.</p>
 	</section>
 
 	<section id="education" class="history-timeline-container">
 		<h2 class="title">Education</h2>
 
 		<ul class="timeline">
-			<!--<div class="bar">.</div>  bar of the timeline-->
 			<li class="timeline_element" id="mines">
 				<div class="container left">
 					<p class="date">2019 - 2023</p>
@@ -66,9 +65,9 @@
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
 					<p class="description">Engineering degree in microelectronics & computer science.
-					<p class="hidden">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
-					<p class="read">Read more</p></p>
+					<span class="more"><br/>Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</span></p>
 				</div>
+				<button onclick="readMore()" class="btn">Read more</button>
 			</li>
 			<li class="timeline_element" id="prep">
 				<div class="container left">
@@ -123,8 +122,8 @@
 					<h3 class="job">Summer jobs</h3>
 				</div>
 				<div class="container right">
-					<h3 class="name">Val de France, John Deere</h3>
-					<p class="description">Cleaning a high school in compliance with health department regulations. I packed spare parts of tractor engines.</p>
+					<h3 class="name">Limpa Nettoyages, John Deere</h3>
+					<p class="description"></p>
 				</div>
 			</li>
 			<li class="timeline_element" id="CNRS">
@@ -161,19 +160,30 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
-		<p>les entreps, blockchain vote, voiture laser, site web perso</p>
+		<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
+		<div></div>
 		<div id="entrep">
-			<h3>Les Entrepreunariales</h3>
-			<img src="img/logo-les-entrep.png"/>
-			<p></p>
+			<h3><a href="https://www.lesentrep.fr/">Les Entrepreunariales</a></h3>
+			<a href="https://www.lesentrep.fr/"><img src="img/logo-les-entrep.png"/></a>
+			<p>
+				Les Entreps is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world. </br>
+				I created a business plan for a new indoor connected warehouse with 3 teammates.
+			</p>
+			<img src="serre connectée">
+			<h4>Business plan & model pdf</h4>
+			<ul>
+				<li><a href="">Business plan</a></li>
+				<li><a href="">Business model</a></li>
+			</ul>			
 		</div>
 		<div id="car">
 			<h3>Autonomous car model</h3>
-			<img src="" id="car_pic"/>
+			<p>I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. I analyzed its trajectory thanks to a simulation of the car coded with Python.</p>
 			<a href="" class="code"></a>
 		</div>
 		<div id="website">
-			
+			<h3>julienmastrangelo.fr</h3>
+			<p>Personnal website developped with HTML5, CSS3 & PHP.</p>
 		</div>
 	</section>
 
@@ -206,10 +216,11 @@
 					<input id="email" type="email" name="email" placeholder="E-mail *" maxlength="127" required class="input">
 					<label for="phone"></label>
 					<input id="phone" type="tel" name="phone" placeholder="Phone" maxlength="15" class="input">
-					<textarea id="message" name="message" placeholder="Your message (1023 characters max.)" maxlength="1023" required class="input"></textarea>
+					<textarea id="message" name="message" placeholder="Your message (1023 characters max.)" maxlength="1023" required></textarea>
 					<input type="submit" value="Submit" id="submit">
 			</form>
 			<div class="presentation">
+				<img id="profile_picture" src="img/julien.jpg" />
 				<div class="details">
 					<h2>Julien Mastrangelo</h2>
 					<h3>STUDENT ENGINEERING</h3>
@@ -235,6 +246,7 @@
 		</ul>
 	</footer>
 
-	<script type="text/javascript" src="julienmastrangelo.js"></script>
+	<script src="julienmastrangelo.js"></script>
+
 </body>
 </html>
