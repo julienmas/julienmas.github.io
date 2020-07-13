@@ -26,7 +26,7 @@
 			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
-				<h3>STUDENT ENGINEERING</h3>
+				<h3>ENGINEERING STUDENT</h3>
 				<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				<p><strong>City: </strong>Aix-en-Provence, France</p>
 				<p><strong>Age: </strong>21</p>
@@ -67,7 +67,7 @@
 					<p class="description">Engineering degree in microelectronics & computer science.
 					<span class="more"><br/>Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</span></p>
 				</div>
-				<button onclick="readMore()" class="btn">Read more</button>
+				<button onclick="readMore(0)" class="btn">Read more</button>
 			</li>
 			<li class="timeline_element" id="prep">
 				<div class="container left">
@@ -160,28 +160,32 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
-		<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
-		<div></div>
-		<div id="entrep">
-			<h3><a href="https://www.lesentrep.fr/">Les Entrepreunariales</a></h3>
-			<a href="https://www.lesentrep.fr/"><img src="img/logo-les-entrep.png"/></a>
+		<!--<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
+		<div></div>-->
+		<div class="project" id="entrep">
+			<h3>Les Entrepreunariales</h3>
 			<p>
-				Les Entreps is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world. </br>
+				Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
 				I created a business plan for a new indoor connected warehouse with 3 teammates.
+				<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
+				<div class="more">
+					<img src="serre connectée">
+					<h4>Business plan & model pdf</h4>
+					<ul>
+						<li><a href="">Business plan</a></li>
+						<li><a href="">Business model</a></li>
+					</ul>
+				</div>
 			</p>
-			<img src="serre connectée">
-			<h4>Business plan & model pdf</h4>
-			<ul>
-				<li><a href="">Business plan</a></li>
-				<li><a href="">Business model</a></li>
-			</ul>			
+			
+			<button onclick="readMore(1)" class="btn">Read more</button>
 		</div>
-		<div id="car">
+		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
 			<p>I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. I analyzed its trajectory thanks to a simulation of the car coded with Python.</p>
 			<a href="" class="code"></a>
 		</div>
-		<div id="website">
+		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
 			<p>Personnal website developped with HTML5, CSS3 & PHP.</p>
 		</div>
@@ -193,7 +197,7 @@
 			<article id="musician">
 				<h3>Musician</h3>
 				<p>I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
-				I also play bass guitar and guitar.</p>
+				I also play bass guitar in a band and guitar. I am currently the vice-president of the art association (BDA) of my school.</p>
 			</article>
 			<article id="BDE">
 				<h3>BDE</h3>

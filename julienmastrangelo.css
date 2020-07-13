@@ -76,21 +76,23 @@ button, #submit{
 	outline: none;
 	height: 30px;
 	text-align: center;
-	width: 100px;
+	width: 110px;
 	border-radius: 30px;
 	background: white;
 	border: 1px solid var(--main-color);
 	color: var(--main-color);
 	font-weight: bold;
+	margin: 0 50px 30px 50px;
 	transition: all 0.3s ease;
 }
 button:hover, #submit:hover{
 		color: white;
 		background: var(--main-color);
+		border-color: white;
 }
 button:active, #submit:active{
-	border-color: white;
-	/*letter-spacing: 0px;*/
+	border-color: var(--snd-color);
+	letter-spacing: 1px;
 }
 
 header{
@@ -161,7 +163,7 @@ section h2{
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-content: center;
+	align-content: flex-start;
 	margin: 50px 0px 50px 50px;
 	background-color: white;
 }
@@ -221,12 +223,12 @@ section h2{
 }
 .history-timeline-container ul.timeline li{
     list-style: none;
-    margin:auto;
-    margin-left:200px;
-    min-height:50px;
-    border-left:1px solid var(--snd-color);
-    padding:0 0 50px 30px;
-    position:relative;
+    margin: auto;
+    margin-left: 200px;
+    min-height: 50px;
+    border-left: 1px solid var(--snd-color);
+    padding: 0 0 50px 30px;
+    position: relative;
     text-align: left;
     padding: 0;
 }
@@ -290,9 +292,6 @@ ul.timeline li .right{
 	background-position: center;
 	z-index: -1;
 }
-ul.timeline li button{
-	margin: 0 0 20px 50px;
-}
 
 /* skills */
 #skills ul{
@@ -327,8 +326,30 @@ ul.timeline li button{
 #skills ul li:hover p{opacity: 1;}
 
 /*projects*/
+#projects{
+	background: var(--main-color);
+	color: white;
+}
+.project{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px solid var(--snd-color);
+}
+.project h3{
+	width: 30%;
+	text-align: right;
+}
+.project p{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	text-align: justify;
+}
+
 #entrep img{
-	width: 200px;
+	width: 250px;
 	height: auto;
 }
 
