@@ -92,7 +92,6 @@ button:hover, #submit:hover{
 }
 button:active, #submit:active{
 	border-color: var(--snd-color);
-	letter-spacing: 1px;
 }
 
 header{
@@ -202,7 +201,7 @@ section h2{
 }
 #brief {padding-top: 0px;}
 #brief p{
-	width: 70%;
+	width: 60%;
 	margin: auto;
 	line-height: 1.5em;
 	text-align: center;
@@ -337,10 +336,11 @@ ul.timeline li .right{
 	border-top: 1px solid var(--snd-color);
 }
 .project h3{
-	width: 30%;
+	width: 20%;
 	text-align: right;
 }
-.project p{
+.project p, .project a {
+	font-color: white;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
