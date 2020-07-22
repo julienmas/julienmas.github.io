@@ -167,7 +167,7 @@
 			<p>
 				Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
 				I created a business plan for a new indoor connected warehouse with 3 teammates.
-				<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
+				
 				<div class="more">
 					<img src="serre connectée">
 					<h4>Business plan & model pdf</h4>
@@ -177,6 +177,7 @@
 					</ul>
 				</div>
 			</p>
+			<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
 			
 			<button onclick="readMore(1)" class="btn">Read more</button>
 		</div>
@@ -188,6 +189,11 @@
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
 			<p>Personnal website developped with HTML5, CSS3 & PHP.</p>
+		</div>
+		<div class="project" id="passwords_wallet">
+			<h3>Password wallet</h3>
+			<p>Password wallet is program to save passwords based on SHA-256 hash function and XOR-encryption. <a href="https://github.com/julienmas/password_wallet/">Code</a> d</p>
+			
 		</div>
 	</section>
 
@@ -235,7 +241,7 @@
 						<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 					</li>
 				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				</ul>
 			</div>
