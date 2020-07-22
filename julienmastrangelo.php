@@ -50,7 +50,7 @@
 
 	<section id="brief">
 		<h2>Hello! I'm Julien</h2>
-		<p>I am a rigorous and motivated engineering student from l’Ecole des Mines de St-Etienne. I am recognized for my ability to fit into a work team. I am looking for a position in a laboratory or in an R&D department, where I can use my creativity and my technical skills.</p>
+		<p>I am a rigorous and motivated engineering student from l’Ecole des Mines de St-Etienne. I am recognized for my ability to fit into a work team. I am looking for an 6 months internship in a laboratory, where I could use my creativity and my technical skills.</p>
 	</section>
 
 	<section id="education" class="history-timeline-container">
@@ -168,32 +168,20 @@
 				Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
 				I created a business plan for a new indoor connected warehouse with 3 teammates.
 				
-				<div class="more">
-					<img src="serre connectée">
-					<h4>Business plan & model pdf</h4>
-					<ul>
-						<li><a href="">Business plan</a></li>
-						<li><a href="">Business model</a></li>
-					</ul>
-				</div>
 			</p>
 			<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
-			
-			<button onclick="readMore(1)" class="btn">Read more</button>
 		</div>
 		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
 			<p>I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. I analyzed its trajectory thanks to a simulation of the car coded with Python.</p>
-			<a href="" class="code"></a>
 		</div>
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
-			<p>Personnal website developped with HTML5, CSS3 & PHP.</p>
+			<p>Personnal website developped with HTML5, CSS3 & javascript.</p>
 		</div>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
-			<p>Password wallet is program to save passwords based on SHA-256 hash function and XOR-encryption. <a href="https://github.com/julienmas/password_wallet/">Code</a> d</p>
-			
+			<p>Password wallet is program to save passwords based on SHA-256 hash function and XOR-encryption.</p>
 		</div>
 	</section>
 
@@ -207,11 +195,11 @@
 			</article>
 			<article id="BDE">
 				<h3>BDE</h3>
-				<p>I am an active member of the BDE. This society organizes major events on the campus such as trips, journey...</p>
+				<p>I am an active member of the BDE (Bureau des élèves). This society organizes major events on the campus.</p>
 			</article>
 			<article id="computer_science_society">
 				<h3>Member of Minitel</h3>
-				<p>Minitel is Mines St-Etienne's computer science and computer network society. The society gère le réseau de la résidence.</p>			
+				<p>Minitel is Mines St-Etienne's computer science and computer network society. The society manages the student residence network.</p>			
 			</article>
 		</div>
 	</section>
