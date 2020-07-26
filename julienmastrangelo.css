@@ -3,7 +3,7 @@
 /* variables declaration */
 :root{
 	--main-color: rgb(0,0,106);
-	--snd-color: rgb(235,235,235);
+	--snd-color: rgb(220,220,220);
 }
 
 
@@ -72,6 +72,7 @@ a{
 	text-decoration: none;
 	color: var(--main-color);	
 }
+a:hover{color: var(--snd-color);}
 button, #submit{
 	outline: none;
 	height: 30px;
@@ -329,28 +330,36 @@ ul.timeline li .right{
 	background: var(--main-color);
 	color: white;
 }
+#projects a{
+	color: var(--snd-color);
+}
+#projects a:hover{
+	color: white;
+}
 .project{
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	justify-content: space-between;
 	border-top: 1px solid var(--snd-color);
 }
-.project h3{
-	width: 20%;
-	text-align: right;
-}
-.project p, .project a {
-	font-color: white;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	width: 50%;
-	text-align: justify;
-}
 
-#entrep img{
+.project h3{
+	flex: 1;
+	text-align: right;
+	margin-right: 50px;
+}
+.project p{
+	flex: 3;
+	align-items: center;
+	text-align: justify;
+	margin: 10px;
+}
+#entrep_logo{
 	width: 250px;
 	height: auto;
+}
+#img_warehouse{
+	border-radius: 10px;
 }
 
 /*hobbies*/

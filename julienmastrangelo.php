@@ -22,7 +22,7 @@
 	</header>
 
 	<section id="block1" title="St-Etienne School of Mines">
-		<div class="presentation">
+		<div class="presentation" title="">
 			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
@@ -38,8 +38,8 @@
 				<li id="github">
 					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
 				</li>
-				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+				<li id="cv">
+					<a href="pdf/Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				<li id="mailto">
 					<a href="mailto:julien.mastrangelo@etu.emse.fr"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
@@ -163,23 +163,23 @@
 		<!--<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
 		<div></div>-->
 		<div class="project" id="entrep">
-			<h3>Les Entrepreunariales</h3>
-			<p>
-				Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
-				I created a business plan for a new indoor connected warehouse with 3 teammates.
-				
+			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
+			<div>
+				<p>
+					Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
+					I created a business plan for a new indoor connected warehouse with 3 teammates.
+					
+					
+				</p>
 				<div class="more">
-					<img src="serre connectée">
-					<h4>Business plan & model pdf</h4>
+					<img id="img_warehouse" src="img/serre.png" alt="Connected warehouse design" />
 					<ul>
-						<li><a href="">Business plan</a></li>
-						<li><a href="">Business model</a></li>
+						<li><a href="pdf/entrep-BP">Business plan</a></li>
+						<li><a href="pdf/entrep-BM">Business model</a></li>
 					</ul>
 				</div>
-			</p>
-			<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
-			
-			<button onclick="readMore(1)" class="btn">Read more</button>
+				<button onclick="readMore(1)" class="btn">Read more</button>
+			</div>
 		</div>
 		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
@@ -188,12 +188,11 @@
 		</div>
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
-			<p>Personnal website developped with HTML5, CSS3 & PHP.</p>
+			<p>Personnal website developped with HTML5, CSS3, javascript & PHP.</p>
 		</div>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
-			<p>Password wallet is program to save passwords based on SHA-256 hash function and XOR-encryption. <a href="https://github.com/julienmas/password_wallet/">Code</a> d</p>
-			
+			<p>Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption. Its code is available <a href="https://github.com/julienmas/password_wallet/">here</a>.</p>
 		</div>
 	</section>
 
@@ -240,8 +239,8 @@
 					<li class="linkedin">
 						<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 					</li>
-				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+				<li id="cv">
+					<a href="pdf/Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				</ul>
 			</div>

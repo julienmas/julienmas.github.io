@@ -1,3 +1,10 @@
+/* jQuery */
+$(function() {
+  $('#texteJQ').html('Hello world. Ce texte est affiché par jQuery.');
+});
+
+
+/* pure javascript */
 var moreText = document.querySelectorAll('.more');
 var btnText = document.querySelectorAll('.btn');
 
