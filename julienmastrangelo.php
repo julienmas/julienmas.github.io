@@ -64,10 +64,12 @@
 				</div>
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
-					<p class="description">Engineering degree in microelectronics & computer science.
-					<span class="more"><br/>Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</span></p>
+					<p class="description">Engineering degree in microelectronics & computer science.</p>
+					<p class="more">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<button class="btn">Read more</button>
 				</div>
-				<button onclick="readMore(0)" class="btn">Read more</button>
+				
+				
 			</li>
 			<li class="timeline_element" id="prep">
 				<div class="container left">
@@ -178,13 +180,17 @@
 						<li><a href="pdf/entrep-BM">Business model</a></li>
 					</ul>
 				</div>
-				<button onclick="readMore(1)" class="btn">Read more</button>
+				<button class="btn">Read more</button>
 			</div>
 		</div>
 		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
-			<p>I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. I analyzed its trajectory thanks to a simulation of the car coded with Python.</p>
-			<a href="" class="code"></a>
+			<p>
+				I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. 
+				I analyzed its trajectory thanks to a simulation of the car coded with Python. 
+				You can see more about it <a href="car.html">here</a>.
+			</p>
+			
 		</div>
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
@@ -255,6 +261,7 @@
 		</ul>
 	</footer>
 
+	<script src="jquery-3.5.1.js"></script>
 	<script src="julienmastrangelo.js"></script>
 
 </body>

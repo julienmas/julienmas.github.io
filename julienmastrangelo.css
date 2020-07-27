@@ -66,7 +66,7 @@ body{
 	margin: auto;
 }
 
-p{text-indent: 5%;}
+p{text-indent: 30px;}
 strong{font-weight: bold;}
 a{
 	text-decoration: none;
@@ -83,7 +83,7 @@ button, #submit{
 	border: 1px solid var(--main-color);
 	color: var(--main-color);
 	font-weight: bold;
-	margin: 0 50px 30px 50px;
+	/*margin: 0 50px 30px 50px;*/
 	transition: all 0.3s ease;
 }
 button:hover, #submit:hover{
@@ -94,6 +94,7 @@ button:hover, #submit:hover{
 button:active, #submit:active{
 	border-color: var(--snd-color);
 }
+code{color: black;}
 
 header{
 	background: white;
@@ -150,7 +151,7 @@ section h2{
 .more {display: none;}
 
 /* Details */
-
+/* julienmastrangelo.php (index.php) */
 /* Overview */
 #block1{
 	background: center no-repeat url('img/emse.jpeg');
@@ -331,18 +332,18 @@ ul.timeline li .right{
 	color: white;
 }
 #projects a{
-	color: var(--snd-color);
-}
-#projects a:hover{
 	color: white;
+	text-decoration: underline;
 }
+#projects a:hover{color: var(--snd-color);}
+
 .project{
 	display: flex;
 	/*flex-wrap: wrap;*/
 	justify-content: space-between;
 	border-top: 1px solid var(--snd-color);
+	padding-bottom: 20px;
 }
-
 .project h3{
 	flex: 1;
 	text-align: right;
@@ -373,7 +374,6 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
-
 #contact .content{ /* .content identique avec #hobbies */
 	display: flex;
 	flex-direction: row;
@@ -388,14 +388,14 @@ ul.timeline li .right{
 }
 #contact .input{
 	height: 40px;
-	width: 100%;
+	width: 90%;
 	margin: 5px;
 	border-radius: 5px;
 }
 #contact textarea{
 	min-height: 120px;
 	height: 50%;
-	width: 100%;
+	width: 90%;
 	margin: 10px;
 	border-radius: 5px;
 }
@@ -419,4 +419,13 @@ footer{
 footer a{
 	color: white;
 	text-decoration: none;
+}
+
+
+/* car.html */
+#car img{
+	border-radius: 10px;
+}
+#car_presentation p{
+	display: flex;
 }
