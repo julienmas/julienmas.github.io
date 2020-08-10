@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
 	<title>Julien Mastrangelo</title>
 </head>
-<body>
+<body id="julienmastrangelo">
 	<header>
 		<h1><a href="#">Julien Mastrangelo</a></h1>
 		<nav>
@@ -176,8 +176,8 @@
 				<div class="more">
 					<img id="img_warehouse" src="img/serre.png" alt="Connected warehouse design" />
 					<ul>
-						<li><a href="pdf/entrep-BP">Business plan</a></li>
-						<li><a href="pdf/entrep-BM">Business model</a></li>
+						<li><a href="pdf/entrep-BP">Business plan (in French)</a></li>
+						<li><a href="pdf/entrep-BM">Business model (in French)</a></li>
 					</ul>
 				</div>
 				<button class="btn">Read more</button>
