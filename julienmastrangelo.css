@@ -67,7 +67,12 @@ body{
 }
 
 p{text-indent: 30px;}
-strong{font-weight: bold;}
+mark{
+	font-weight: bold;
+	background-color: white;
+	color: var(--main-color);
+}
+strong{font-weight: normal;}
 a{
 	text-decoration: none;
 	color: var(--main-color);	
@@ -201,7 +206,7 @@ section h2{
 	width: 30px;
 	height: auto;	
 }
-#brief {padding-top: 0px;}
+/*#brief {padding-top: 0px;}*/
 #brief p{
 	width: 60%;
 	margin: auto;
@@ -339,7 +344,6 @@ ul.timeline li .right{
 
 .project{
 	display: flex;
-	/*flex-wrap: wrap;*/
 	justify-content: space-between;
 	border-top: 1px solid var(--snd-color);
 	padding-bottom: 20px;
@@ -359,7 +363,7 @@ ul.timeline li .right{
 	width: 250px;
 	height: auto;
 }
-#img_warehouse{
+#img_greenhouse{
 	border-radius: 10px;
 }
 
@@ -428,4 +432,6 @@ footer a{
 }
 #car_presentation p{
 	display: flex;
+	justify-content: space-between;
+	text-align: justify;
 }

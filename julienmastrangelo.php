@@ -28,9 +28,9 @@
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
 				<h3>ENGINEERING STUDENT</h3>
-				<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
-				<p><strong>City: </strong>Aix-en-Provence, France</p>
-				<p><strong>Age: </strong>21</p>
+				<p><mark>Email: </mark> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
+				<p><mark>City: </mark>Aix-en-Provence, France</p>
+				<p><mark>Age: </mark>21</p>
 			</div>
 			<ul class="social_network">
 				<li class="linkedin">
@@ -51,7 +51,11 @@
 
 	<section id="brief">
 		<h2>Hello! I'm Julien</h2>
-		<p>I am a rigorous and motivated engineering student from l’Ecole des Mines de St-Etienne. I am recognized for my ability to fit into a work team. I am looking for an 6 months internship in a laboratory, where I could use my creativity and my technical skills.</p>
+		<p>
+			I am a rigorous and motivated <strong>engineering student from l’Ecole des Mines de St-Etienne</strong>. 
+			I am recognized for my ability to fit into a work team. 
+			I am looking for an 6 months internship in a laboratory, where I could use my creativity and my technical skills.
+		</p>
 	</section>
 
 	<section id="education" class="history-timeline-container">
@@ -65,9 +69,24 @@
 				</div>
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
-					<p class="description">Engineering degree in microelectronics & computer science.</p>
-					<p class="more">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<p class="description"><strong>Engineering degree in microelectronics & computer science.</strong></p>
+					<p class="more">
+						Analogic electronics, digital electronics, algorithmics and programming, microcontroller systems. 
+						Linux, C, signal mathematics, signal processing, probabilities, linear system theory. 
+						Corporate vision and strategy, relationship development.<br/>
+						According to the international reference <a href="https://www.timeshighereducation.com/world-university-rankings/ecole-des-mines-de-saint-etienne"><em>Times Higher Education World University Ranking</em></a> (THE), Mines Saint-Etienne is among the top 500 best world universities and among the top 250 best engineering schools.
+					</p>
 					<button class="btn">Read more</button>
+				</div>
+			</li>
+			<li class="timeline_element" id="israelx">
+				<div class="container left">
+					<p class="date">2020</p>
+					<h3 class="degree"><a href="pdf/unlocking-information-security-part-I-certificate-julien-mastrangelo.pdf">edX certificate</a></h3>
+				</div>
+				<div class="container right">
+					<h3 class="name">IsraelX</h3>
+					<p class="description">During the covid-19 lockdown I followed a course offered by IsraelX on <a href="https://www.edx.org/professional-certificate/israelx-unlocking-information-security">www.edx.org</a> : unlocking information security.</p>
 				</div>
 			</li>
 			<li class="timeline_element" id="prep">
@@ -161,22 +180,20 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
-		<!--<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
-		<div></div>-->
+		<!--<p>projet robot, blockchain vote (à finir), voiture laser, environment simulation?</p>-->
 		<div class="project" id="entrep">
 			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
 			<div>
 				<p>
 					Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
-					I created a business plan for a new indoor connected warehouse with 3 teammates.
-					
-					
+					I created a business plan for a new indoor connected greenhouse with 3 teammates : Naïma Benali, Lahrache Omar and Hafssa Merzoug. An industrial design student, Yohan Bonnet, imagined with us the design of the greenhouse, wich you can see below.
 				</p>
 				<div class="more">
-					<img id="img_warehouse" src="img/serre.png" alt="Connected warehouse design" />
+					<img id="img_greenhouse" src="img/serre.png" alt="Connected greenhouse design" />
 					<ul>
-						<li><a href="pdf/entrep-BP">Business plan (in French)</a></li>
-						<li><a href="pdf/entrep-BM">Business model (in French)</a></li>
+						<li><a href="pdf/entrep-BP">Business plan</a> (in French)</li>
+						<li><a href="pdf/entrep-BM">Business model</a> (in French)</li>
+						<li><a href="pdf/certificat-les-entrep-2020-julien-mastrangelo.pdf">Les Entrep' certificate</a></li>
 					</ul>
 				</div>
 				<button class="btn">Read more</button>
@@ -197,7 +214,17 @@
 		</div>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
-			<p>Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption. Its code is available <a href="https://github.com/julienmas/password_wallet/">here</a>.</p>
+			<p>Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption. 
+			Its code is available <a href="https://github.com/julienmas/password_wallet/">here</a>.</p>
+		</div>
+		<div class="project" id="chatrooms">
+			<h3>C Messenger</h3>
+			<p>
+				<a href="https://www.linkedin.com/in/matthias-hallgren-65b9041a9/">Matthias Hallgren</a> and I created a chatrooms system, similar to what Facebook Messenger does. 
+				We used a static multithreaded Client/Server architecture. 
+				Client and server communicate with TCP/IP sockets. 
+				Its code is available <a href="https://github.com/julienmas/CMessenger">here</a>.
+			</p>
 		</div>
 	</section>
 
@@ -238,7 +265,7 @@
 				<div class="details">
 					<h2>Julien Mastrangelo</h2>
 					<h3>STUDENT ENGINEERING</h3>
-					<p><strong>Email: </strong> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
+					<p><mark>Email: </mark> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				</div>
 				<ul class="social_network">
 					<li class="linkedin">
