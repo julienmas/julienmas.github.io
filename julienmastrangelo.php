@@ -11,12 +11,13 @@
 		<h1><a href="#">Julien Mastrangelo</a></h1>
 		<nav>
 			<ul>
+				<li><a href="#brief">About me</a></li>
 				<li><a href="#education">Education</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#skills">Skills</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#hobbies">Interests</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<!-- <li><a href="#contact">Contact</a></li> -->
 			</ul>
 		</nav>
 	</header>
@@ -68,8 +69,6 @@
 					<p class="more">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
 					<button class="btn">Read more</button>
 				</div>
-				
-				
 			</li>
 			<li class="timeline_element" id="prep">
 				<div class="container left">
@@ -221,7 +220,7 @@
 		</div>
 	</section>
 
-	<section id="contact">
+	<!-- <section id="contact">
 		<h2>Contact</h2>
 		<div class="content">
 			<form method="post" action="contact.php">
@@ -251,7 +250,7 @@
 				</ul>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<footer>
 		<h3>Credits</h3>

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-var moreText = document.querySelectorAll('.more');
-=======
 /* jQuery */
 $(function() {
   var readMore = function() {
@@ -26,7 +23,6 @@ $(function() {
 /* pure javascript */
 /* old code */
 /*var moreText = document.querySelectorAll('.more');
->>>>>>> dev
 var btnText = document.querySelectorAll('.btn');
 
 function readMore(i)
