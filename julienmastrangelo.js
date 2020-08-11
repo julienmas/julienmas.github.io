@@ -37,8 +37,4 @@ function readMore(i)
     btnText[i].innerHTML = 'Read less';
     moreText[i].style.display = 'inline';
   }
-<<<<<<< HEAD
-}
-=======
 }*/
->>>>>>> dev
