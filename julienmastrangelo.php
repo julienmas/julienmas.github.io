@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
 	<title>Julien Mastrangelo</title>
 </head>
-<body>
+<body id="julienmastrangelo">
 	<header>
 		<h1><a href="#">Julien Mastrangelo</a></h1>
 		<nav>
@@ -22,7 +22,7 @@
 	</header>
 
 	<section id="block1" title="St-Etienne School of Mines">
-		<div class="presentation">
+		<div class="presentation" title="">
 			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
@@ -38,8 +38,8 @@
 				<li id="github">
 					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
 				</li>
-				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+				<li id="cv">
+					<a href="pdf/Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				<li id="mailto">
 					<a href="mailto:julien.mastrangelo@etu.emse.fr"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
@@ -64,10 +64,12 @@
 				</div>
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
-					<p class="description">Engineering degree in microelectronics & computer science.
-					<span class="more"><br/>Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</span></p>
+					<p class="description">Engineering degree in microelectronics & computer science.</p>
+					<p class="more">Analogic electronics, digital electronics. Linux, C, signal mathematics, signal processing, probabilities, linear system theory, algorithmics and programming, microcontroller systems, corporate vision and strategy, relationship development.</p>
+					<button class="btn">Read more</button>
 				</div>
-				<button onclick="readMore(0)" class="btn">Read more</button>
+				
+				
 			</li>
 			<li class="timeline_element" id="prep">
 				<div class="container left">
@@ -163,25 +165,40 @@
 		<!--<p>les entreps, blockchain vote (à finir), voiture laser, site web perso, chatrooms, secure passwords wallet, environment simulation?</p>
 		<div></div>-->
 		<div class="project" id="entrep">
-			<h3>Les Entrepreunariales</h3>
-			<p>
-				Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
-				I created a business plan for a new indoor connected warehouse with 3 teammates.
-				
-			</p>
-			<a href="https://www.lesentrep.fr/" target="_blank"><img src="img/logo-les-entrep.png"/></a>
+			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
+			<div>
+				<p>
+					Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
+					I created a business plan for a new indoor connected warehouse with 3 teammates.
+					
+					
+				</p>
+				<div class="more">
+					<img id="img_warehouse" src="img/serre.png" alt="Connected warehouse design" />
+					<ul>
+						<li><a href="pdf/entrep-BP">Business plan (in French)</a></li>
+						<li><a href="pdf/entrep-BM">Business model (in French)</a></li>
+					</ul>
+				</div>
+				<button class="btn">Read more</button>
+			</div>
 		</div>
 		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
-			<p>I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. I analyzed its trajectory thanks to a simulation of the car coded with Python.</p>
+			<p>
+				I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. 
+				I analyzed its trajectory thanks to a simulation of the car coded with Python. 
+				You can see more about it <a href="car.html">here</a>.
+			</p>
+			
 		</div>
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
-			<p>Personnal website developped with HTML5, CSS3 & javascript.</p>
+			<p>Personnal website developped with HTML5, CSS3, javascript & PHP.</p>
 		</div>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
-			<p>Password wallet is program to save passwords based on SHA-256 hash function and XOR-encryption.</p>
+			<p>Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption. Its code is available <a href="https://github.com/julienmas/password_wallet/">here</a>.</p>
 		</div>
 	</section>
 
@@ -228,8 +245,8 @@
 					<li class="linkedin">
 						<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 					</li>
-				<li id="pdf">
-					<a href="Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+				<li id="cv">
+					<a href="pdf/Julien_MASTRANGELO_CV_2020_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				</ul>
 			</div>
@@ -244,6 +261,7 @@
 		</ul>
 	</footer>
 
+	<script src="jquery-3.5.1.js"></script>
 	<script src="julienmastrangelo.js"></script>
 
 </body>
