@@ -5,6 +5,7 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
 	<title>Julien Mastrangelo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body id="julienmastrangelo">
 	<header>
@@ -30,7 +31,7 @@
 				<h3>ENGINEERING STUDENT</h3>
 				<p><mark>Email: </mark> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				<p><mark>City: </mark>Aix-en-Provence, France</p>
-				<p><mark>Age: </mark>21</p>
+				<p><mark>Age: </mark>22</p>
 			</div>
 			<ul class="social_network">
 				<li class="linkedin">
@@ -70,12 +71,16 @@
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
 					<p class="description"><strong>Engineering degree in microelectronics & computer science.</strong></p>
-					<p class="more">
-						Analogic electronics, digital electronics, algorithmics and programming, microcontroller systems. 
-						Linux, C, signal mathematics, signal processing, probabilities, linear system theory. 
-						Corporate vision and strategy, relationship development.<br/>
-						According to the international reference <a href="https://www.timeshighereducation.com/world-university-rankings/ecole-des-mines-de-saint-etienne"><em>Times Higher Education World University Ranking</em></a> (THE), Mines Saint-Etienne is among the top 500 best world universities and among the top 250 best engineering schools.
-					</p>
+					<div class="more">
+						<p>
+							Analogic electronics, digital electronics, algorithmics and programming, microcontroller systems. 
+							Linux, C, signal mathematics, signal processing, probabilities, linear system theory. 
+							Corporate vision and strategy, relationship development.
+						</p>
+						<p>
+							According to the international reference <a href="https://www.timeshighereducation.com/world-university-rankings/ecole-des-mines-de-saint-etienne"><em>Times Higher Education World University Ranking</em></a> (THE), Mines Saint-Etienne is among the top 500 best world universities and among the top 250 best engineering schools.
+						</p>
+					</div>
 					<button class="btn">Read more</button>
 				</div>
 			</li>
@@ -86,7 +91,7 @@
 				</div>
 				<div class="container right">
 					<h3 class="name">IsraelX</h3>
-					<p class="description">During the covid-19 lockdown I followed a course offered by IsraelX on <a href="https://www.edx.org/professional-certificate/israelx-unlocking-information-security">www.edx.org</a> : unlocking information security.</p>
+					<p class="description">During the covid-19 lockdown I followed a course offered by IsraelX on <a href="https://www.edx.org/professional-certificate/israelx-unlocking-information-security">www.edx.org</a> : unlocking information security. I learned how systems are hacked and defended.</p>
 				</div>
 			</li>
 			<li class="timeline_element" id="prep">
@@ -96,8 +101,10 @@
 				</div>
 				<div class="container right">
 					<h3 class="name">Prep school, lycée Pothier</h3>
-					<p class="description">MPSI, MP*<br/>
-					Two-year intensive preparation for the national competitive entrance exams to leading French engineering schools. Maths, physics, computer science.</p>
+					<p class="description">
+						MPSI, MP*<br/>
+						Two-year intensive preparation for the national competitive entrance exams to leading French engineering schools. Maths, physics, computer science.
+					</p>
 				</div>
 			</li>
 			<li class="timeline_element" id="bac">
@@ -116,10 +123,24 @@
 	<section id="experience" class="history-timeline-container">
 		<h2 class="title">Experience</h2>
 		<ul class="timeline">
+			<li class="timeline_element" id="Qualcomm">
+				<div class="container left">
+					<p class="date">2021</p>
+					<h3 class="job">Side-Channel Attacks Engineering Intern</h3>
+				</div>
+				<div class="container right">
+					<h3 class="name">Qualcomm Technologies, Inc.</h3>
+					<p class="description">		
+						I did a 6 months internship at Qualcomm security lab in Cork, Ireland.
+						I implementated of side-channel attack techniques in order to add feature to the lab in-house tools, 
+						and I led practical experimentations with continues improvement on industrial devices.
+					</p>
+				</div>
+			</li>
 			<li class="timeline_element" id="NPS">
 				<div class="container left">
 					<p class="date">2020</p>
-					<h3 class="job">Trainee</h3>
+					<h3 class="job">Intern</h3>
 				</div>
 				<div class="container right">
 					<h3 class="name">NPS Diesel</h3>
@@ -163,6 +184,7 @@
 		<h2 class="title">Computer skills</h2>
 		<ul>
 			<li><img class="icon" src="img/c.png" /><p>C language</p></li>
+			<li><img class="icon" src="img/cpp.png" /><p>C++ language</p></li>
 			<li><img class="icon" src="img/python.png" /><p>Python 3</p></li>
 			<li><img class="icon" src="img/html5.png" /><p>HTML5</p></li>
 			<li><img class="icon" src="img/css3.png" /><p>CSS3</p></li>
@@ -171,7 +193,6 @@
 			<li><img class="icon" src="img/ocaml2.png" /><p>OCaml</p></li>
 			<li><img class="icon" src="img/packet-tracer.png" /><p>Cisco Packet Tracer</p></li>
 		</ul>
-		
 	</section>
 
 	<section id="other_skills">
@@ -180,13 +201,13 @@
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
-		<!--<p>projet robot, blockchain vote (à finir), voiture laser, environment simulation?</p>-->
+		<!--<p>projet robot, blockchain vote (à finir), environment simulation?</p>-->
 		<div class="project" id="entrep">
 			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
 			<div>
 				<p>
 					Les Entrep' is an 18-week field training program in business creation that allows each young person to reveal his or her entrepreneurial potential and forge professional links with the business world.</br>
-					I created a business plan for a new indoor connected greenhouse with 3 teammates : Naïma Benali, Lahrache Omar and Hafssa Merzoug. An industrial design student, Yohan Bonnet, imagined with us the design of the greenhouse, wich you can see below.
+					I created a business plan for a new indoor connected greenhouse with 3 teammates : Naïma Benali, Lahrache Omar and Hafssa Merzoug. An industrial design student, <a href="https://www.instagram.com/yohan_mrln/">Yohan Bonnet</a>, imagined with us the design of the greenhouse, wich you can see below.
 				</p>
 				<div class="more">
 					<img id="img_greenhouse" src="img/serre.png" alt="Connected greenhouse design" />
@@ -233,12 +254,14 @@
 		<div class="content">	
 			<article id="musician">
 				<h3>Musician</h3>
-				<p>I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
-				I also play bass guitar in a band and guitar. I am currently the vice-president of the art association (BDA) of my school.</p>
+				<p>
+					I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
+					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band.</a> I am currently the vice-president of the art association (BDA) of my school.
+				</p>
 			</article>
 			<article id="BDE">
-				<h3>BDE</h3>
-				<p>I am an active member of the BDE (Bureau des élèves). This society organizes major events on the campus.</p>
+				<h3>Student Union (BDE)</h3>
+				<p>I am an active member of Mines St-Etienne studion union (BDE - Bureau des élèves). This society organizes major events on the campus.</p>
 			</article>
 			<article id="computer_science_society">
 				<h3>Member of Minitel</h3>
@@ -247,6 +270,9 @@
 		</div>
 	</section>
 
+	<section id="embrase"><iframe  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section>
+	
 	<!-- <section id="contact">
 		<h2>Contact</h2>
 		<div class="content">
@@ -287,7 +313,7 @@
 		</ul>
 	</footer>
 
-	<script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="julienmastrangelo.js"></script>
 
 </body>

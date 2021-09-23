@@ -284,6 +284,13 @@ ul.timeline li .right{
 	background-position: center;
 	z-index: -1;
 }
+#Qualcomm .right:hover:after{
+	opacity: 0.2;
+	background: url(img/qualcomm.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	z-index: -1;
+}
 #NPS .right:hover:after{
 	opacity: 0.2;
 	background: url(img/NPS_Diesel.jpg) no-repeat;
@@ -378,6 +385,15 @@ ul.timeline li .right{
 	text-align: justify;
 }
 
+#embrase{
+	width: 560px;
+	height: 315px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*contact*/
 #contact .content{ /* .content identique avec #hobbies */
 	display: flex;
 	flex-direction: row;
