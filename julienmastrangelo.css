@@ -117,7 +117,7 @@ header{
 }
 header h1{
 	flex: 1;
-	margin: 20px;
+	margin-left: 20px;
 }
 header nav{flex: 2;}
 header ul{
@@ -127,6 +127,7 @@ header ul{
 	/*margin-right: 15px;*/
 }
 header ul li{margin-left: 10px;}
+header ul li #h_brief{margin-left: 0px;}
 header ul li a:hover{color: var(--snd-color);}
 
 section{
@@ -327,7 +328,7 @@ ul.timeline li .right{
 	padding: 50px;
 	z-index: 3;
 }
-#skills ul li:hover .icon{opacity: 0.1;}
+#skills ul li:hover .icon{opacity: 0;}
 #skills ul li p{
 	position: absolute;
 	top: 55px;
@@ -381,16 +382,8 @@ ul.timeline li .right{
 	justify-content: space-around;
 }
 #hobbies article{
-	width: 27%;
+	width: 28%;
 	text-align: justify;
-}
-
-#embrase{
-	width: 560px;
-	height: 315px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 /*contact*/
@@ -450,4 +443,78 @@ footer a{
 	display: flex;
 	justify-content: space-between;
 	text-align: justify;
+}
+
+
+/* Mobile phone CSS */
+
+@media all and (max-width: 920px)
+{
+    body{
+        width: auto;
+		background-color: green;
+    }
+
+	#block1{
+		background: none;
+		padding-bottom: 0px;
+		display: flex;
+		min-width: none;
+		width: auto;
+	}
+	header{
+		height: auto;
+	}
+	header ul{
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.presentation{
+		width: 50%;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start;
+		/*margin: 50px 0px 50px 50px;*/
+		background-color: white;
+	}
+	#profile_picture{
+		width: 180px;
+		height: 180px; /*rajouter une animation pour que la photo diminue en taille progressivement?*/
+	}
+	
+	/* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
+	.history-timeline-container ul.timeline li{
+		list-style: none;
+		margin: auto;
+		margin-left: 50px; /*200px*/
+		min-height: 50px;
+		border-left: 1px solid var(--snd-color);
+		padding: 0 0 50px 30px;
+		position: relative;
+		text-align: left;
+		padding: 0;
+	}
+	.history-timeline-container ul.timeline li::before{
+		position: absolute;
+		left: -3px;
+		top: 25px;
+		content: " ";
+		border-radius: 500%;
+		background: var(--main-color);
+		height: 6px;
+		width: 6px;
+	}
+
+	ul.timeline li .left{
+		/*position: absolute;*/
+		width:auto;
+		/*left: -50px; */ /* same value as margin-left in 	.history-timeline-container ul.timeline li */
+		text-align: left;
+		font-size: 0.8em;
+		line-height: 1em;
+	}
 }

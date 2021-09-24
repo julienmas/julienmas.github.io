@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
+	<!--<link rel="stylesheet" media="all and max-width: 920px" href="mobile.css" /> --><!-- CSS sheet for mobile phone. Change max-width (test on PC) with handheld -->
 	<title>Julien Mastrangelo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -12,7 +13,7 @@
 		<h1><a href="#">Julien Mastrangelo</a></h1>
 		<nav>
 			<ul>
-				<li><a href="#brief">About me</a></li>
+				<li><a id="h_brief" href="#brief">About me</a></li> <!-- h_ : header-->
 				<li><a href="#education">Education</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#skills">Skills</a></li>
@@ -53,9 +54,9 @@
 	<section id="brief">
 		<h2>Hello! I'm Julien</h2>
 		<p>
-			I am a rigorous and motivated <strong>engineering student from l’Ecole des Mines de St-Etienne</strong>. 
+			I am a rigorous and motivated <strong>engineering student</strong> in my final year at l’Ecole des <strong>Mines de St-Etienne</strong>. 
 			I am recognized for my ability to fit into a work team. 
-			I am looking for an 6 months internship in a laboratory, where I could use my creativity and my technical skills.
+			I am looking for an 6 months internship in a <strong>laboratory</strong>, where I could use my creativity and my technical skills.
 		</p>
 	</section>
 
@@ -70,12 +71,16 @@
 				</div>
 				<div class="container right">
 					<h3 class="name"><a href="https://www.mines-stetienne.fr/" target="_blank">Mines St-Etienne <img src="img/web-page.png" class="link" /></a></h3>
-					<p class="description"><strong>Engineering degree in microelectronics & computer science.</strong></p>
+					<p class="description">
+						<strong>Engineering degree in microelectronics & computer science</strong>.
+						Majoring in <strong>embedded systems</strong>. Specialized in mobility and <strong>security</strong>.
+					</p>
 					<div class="more">
 						<p>
-							Analogic electronics, digital electronics, algorithmics and programming, microcontroller systems. 
-							Linux, C, signal mathematics, signal processing, probabilities, linear system theory. 
+							Analogic electronics, digital electronics, computer science, microcontroller systems. 
+							Linux, C, signal processing, probabilities, embedded IA, FPGA.
 							Corporate vision and strategy, relationship development.
+							<!-- rajouter mon score au TOEIC-->
 						</p>
 						<p>
 							According to the international reference <a href="https://www.timeshighereducation.com/world-university-rankings/ecole-des-mines-de-saint-etienne"><em>Times Higher Education World University Ranking</em></a> (THE), Mines Saint-Etienne is among the top 500 best world universities and among the top 250 best engineering schools.
@@ -129,9 +134,9 @@
 					<h3 class="job">Side-Channel Attacks Engineering Intern</h3>
 				</div>
 				<div class="container right">
-					<h3 class="name">Qualcomm Technologies, Inc.</h3>
+					<h3 class="name"><strong>Qualcomm</strong> Technologies, Inc.</h3>
 					<p class="description">		
-						I did a 6 months internship at Qualcomm security lab in Cork, Ireland.
+						I did a 6 months internship at Qualcomm <strong>security lab</strong> in Cork, Ireland.
 						I implementated of side-channel attack techniques in order to add feature to the lab in-house tools, 
 						and I led practical experimentations with continues improvement on industrial devices.
 					</p>
@@ -186,6 +191,7 @@
 			<li><img class="icon" src="img/c.png" /><p>C language</p></li>
 			<li><img class="icon" src="img/cpp.png" /><p>C++ language</p></li>
 			<li><img class="icon" src="img/python.png" /><p>Python 3</p></li>
+			<li><img class="icon" src="img/vhdl.png" /><p>VHDL</p></li>
 			<li><img class="icon" src="img/html5.png" /><p>HTML5</p></li>
 			<li><img class="icon" src="img/css3.png" /><p>CSS3</p></li>
 			<li><img class="icon" src="img/sql.png"><p>SQL</p></li>
@@ -256,8 +262,9 @@
 				<h3>Musician</h3>
 				<p>
 					I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
-					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band.</a> I am currently the vice-president of the art association (BDA) of my school.
+					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band</a>.
 				</p>
+				<iframe id="embrase"  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>f
 			</article>
 			<article id="BDE">
 				<h3>Student Union (BDE)</h3>
@@ -270,8 +277,7 @@
 		</div>
 	</section>
 
-	<section id="embrase"><iframe  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</section>
+	
 	
 	<!-- <section id="contact">
 		<h2>Contact</h2>
