@@ -130,7 +130,7 @@ header ul li #h_brief{margin-left: 0px;}
 header ul li a:hover{color: var(--snd-color);}
 
 #mobile_nav{
-	visibility: hidden;
+	display: none;
 }
 
 section{
@@ -139,7 +139,6 @@ section{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 100px;
-	/*padding-bottom: 50px;*/
 }
 section h2{
 	text-align: center;
@@ -152,29 +151,25 @@ section h2{
 	border-bottom: 1px solid var(--snd-color);
 }
 
-.link{
-	width: 15px;
-	height: auto;
-	padding: 3px;
-}
 .more {display: none;}
 
 /* Details */
-/* julienmastrangelo.php (index.php) */
 /* Overview */
 #block1{
 	background: center no-repeat url('img/emse.jpeg');
 	padding-bottom: 0px;
 	display: flex;
+	align-items: center;
 }
 .presentation{
 	width: 50%;
+	max-width: 800px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: flex-start;
-	margin: 50px 0px 50px 50px;
+	margin: 50px 200px 50px 50px;
 	background-color: white;
 }
 #profile_picture{
@@ -186,9 +181,6 @@ section h2{
 	margin: 25px 19px 0px 19px;
 	transform: scale(1);
     transition: transform 400ms;
-	/*&:hover {
-        transform: scale(1.15);
-    }*/
 }
 #profile_picture:hover{
 	transform: scale(1.13);

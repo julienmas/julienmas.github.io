@@ -8,11 +8,45 @@
 /* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
 /*rajouter une animation pour que la photo diminue en taille progressivement?*/
 
-header{
-	visibility: hidden;
+
+body{
+	background-color: lightblue;
 }
 
-#mobile_nav{
+header{
+	display: none;
+}
+
+section{
+	/* reduce padding left and right to 5%? */
+	padding-top: 0px;
+}
+
+section h2{
+	/* to be updated for mobile*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#block1{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.presentation{
+	width: 100%;
+	margin:0 0 0 0;
+}
+#profile_picture{
+	width: 35vw;  /* vw: view width (width of the screen) */
+	height: auto;
+	margin: 25px 0 0 0;
+}
+#profile_picture:hover{
+	transform: scale(1.10);
+}
+
+#mobile_nav{ /* change background color ? */
 	display: flex;
 	flex-direction: column;
 	visibility: visible;
@@ -24,34 +58,11 @@ header{
 	display: flex;
 	justify-content: center;
 }
- #mobile_nav ul{
+#mobile_nav ul{
 	margin-right: 40px;
 	list-style-type: none;
-	font-size: large;
+	font-size: x-large;
 	line-height: 1.5em; /* to be adjusted */
- }
-
-
-body{
-	background-color: lightblue;
-}
-/* 
-#block1{
-	background: none;
-} */
-
-.presentation{
-	width: 50%;
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start;
-	/*margin: 50px 0px 50px 50px;*/
-	background-color: white;
-}
-#profile_picture{
-	width: 180px;
-	height: 180px; 
 }
 
+#brief p{width: 90%;}
