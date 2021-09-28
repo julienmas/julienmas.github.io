@@ -452,15 +452,13 @@ footer a{
 {
     body{
         width: auto;
+		min-width: none;
 		background-color: green;
+
     }
 
 	#block1{
 		background: none;
-		padding-bottom: 0px;
-		display: flex;
-		min-width: none;
-		width: auto;
 	}
 	header{
 		height: auto;
@@ -487,10 +485,22 @@ footer a{
 	}
 	
 	/* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
+	.history-timeline-container{
+		/*width:100%;*/
+		margin:auto;
+		display:block;
+		position:relative;
+	}
+	.history-timeline-container ul.timeline{
+		margin:20px 0;
+		padding:0;
+		display:inline-flex;
+		flex-direction: column;
+	}
 	.history-timeline-container ul.timeline li{
 		list-style: none;
 		margin: auto;
-		margin-left: 50px; /*200px*/
+		margin-left: 200px;
 		min-height: 50px;
 		border-left: 1px solid var(--snd-color);
 		padding: 0 0 50px 30px;
@@ -510,11 +520,38 @@ footer a{
 	}
 
 	ul.timeline li .left{
-		/*position: absolute;*/
-		width:auto;
-		/*left: -50px; */ /* same value as margin-left in 	.history-timeline-container ul.timeline li */
-		text-align: left;
+		position: absolute;
+		width:150px;
+		left: -200px;
+		text-align: right;
 		font-size: 0.8em;
 		line-height: 1em;
 	}
+	ul.timeline li .left .date{
+		font-size: 1.4em;
+	}
+
+
+	ul.timeline li .right{
+		position: relative;
+		z-index: 2;
+		padding: 0 0 20px 30px;
+		width: 100%;
+	}
+	.right:after {
+		content:"";
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	/* TESTER QUELLE PARTIE DE LA PAGE IMPOSE LA LARGEUR EN LES COMMENTANT UNE PAR UNE */
+	/* mettre la nav juste après la présentation, en colonne */
+	/* rajouter à chaque section un icone retour au menu */
+	/* reduire la tailles des icones */
+	/* mettre les titres des projets au dessus des textes */
+	/*mettre les hobbies en colonnes*/
+
 }
