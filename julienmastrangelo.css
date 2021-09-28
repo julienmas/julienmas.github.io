@@ -124,6 +124,7 @@ header ul{
 	display: flex;
 	justify-content: space-around;
 	/*margin-right: 15px;*/
+	font-size: large;
 }
 header ul li{margin-left: 10px;}
 header ul li #h_brief{margin-left: 0px;}
@@ -152,7 +153,11 @@ section h2{
 }
 
 .more {display: none;}
-
+.link{
+	width: 15px;
+	height: auto;
+	padding: 3px;
+}
 /* Details */
 /* Overview */
 #block1{
@@ -239,7 +244,7 @@ section h2{
     left: -3px;
     top: 25px;
     content: " ";
-    border-radius: 500%;
+    border-radius: 100%;
     background: var(--main-color);
     height: 6px;
     width: 6px;

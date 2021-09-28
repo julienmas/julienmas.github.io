@@ -66,3 +66,8 @@ section h2{
 }
 
 #brief p{width: 90%;}
+
+/* Timelines (education & experience) */
+.history-timeline-container{width:80%;}
+.history-timeline-container ul.timeline li{margin-left: 120px;}
+ul.timeline li .left{left: -170px;}
