@@ -62,6 +62,10 @@ body{
 	color: var(--main-color);
 	font-family: 'louis_george_caferegular', calibri, sans-serif;
 	line-height: 1.4em;
+	
+}
+
+#page{
 	min-width: 920px;
 	margin: auto;
 }
