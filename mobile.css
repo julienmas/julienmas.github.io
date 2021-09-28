@@ -1,4 +1,57 @@
-body{
-	min-width: auto;
-	margin: auto;
+/* Mobile phone CSS */
+
+/* mettre la nav juste après la présentation, en colonne */
+/* rajouter à chaque section un icone retour au menu */
+/* reduire la tailles des icones */
+/* mettre les titres des projets au dessus des textes */
+/*mettre les hobbies en colonnes*/
+/* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
+/*rajouter une animation pour que la photo diminue en taille progressivement?*/
+
+header{
+	visibility: hidden;
 }
+
+#mobile_nav{
+	display: flex;
+	flex-direction: column;
+	visibility: visible;
+}
+#mobile_nav h1{
+	text-align: center;/* centrer sur la page */
+}
+#mobile_nav nav{
+	display: flex;
+	justify-content: center;
+}
+ #mobile_nav ul{
+	margin-right: 40px;
+	list-style-type: none;
+	font-size: large;
+	line-height: 1.5em; /* to be adjusted */
+ }
+
+
+body{
+	background-color: lightblue;
+}
+/* 
+#block1{
+	background: none;
+} */
+
+.presentation{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	/*margin: 50px 0px 50px 50px;*/
+	background-color: white;
+}
+#profile_picture{
+	width: 180px;
+	height: 180px; 
+}
+

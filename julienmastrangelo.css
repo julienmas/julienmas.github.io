@@ -129,6 +129,10 @@ header ul li{margin-left: 10px;}
 header ul li #h_brief{margin-left: 0px;}
 header ul li a:hover{color: var(--snd-color);}
 
+#mobile_nav{
+	visibility: hidden;
+}
+
 section{
 	display: flex;
 	flex-direction: column;
@@ -442,115 +446,4 @@ footer a{
 	display: flex;
 	justify-content: space-between;
 	text-align: justify;
-}
-
-
-/* Mobile phone CSS */
-
-@media all and (max-width: 920px)
-{
-    body{
-        width: auto;
-		min-width: none;
-		background-color: green;
-
-    }
-
-	#block1{
-		background: none;
-	}
-	header{
-		height: auto;
-	}
-	header ul{
-		display: flex;
-		flex-direction: column;
-		margin-top: 20px;
-	}
-
-	.presentation{
-		width: 50%;
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: flex-start;
-		/*margin: 50px 0px 50px 50px;*/
-		background-color: white;
-	}
-	#profile_picture{
-		width: 180px;
-		height: 180px; /*rajouter une animation pour que la photo diminue en taille progressivement?*/
-	}
-	
-	/* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
-	.history-timeline-container{
-		/*width:100%;*/
-		margin:auto;
-		display:block;
-		position:relative;
-	}
-	.history-timeline-container ul.timeline{
-		margin:20px 0;
-		padding:0;
-		display:inline-flex;
-		flex-direction: column;
-	}
-	.history-timeline-container ul.timeline li{
-		list-style: none;
-		margin: auto;
-		margin-left: 200px;
-		min-height: 50px;
-		border-left: 1px solid var(--snd-color);
-		padding: 0 0 50px 30px;
-		position: relative;
-		text-align: left;
-		padding: 0;
-	}
-	.history-timeline-container ul.timeline li::before{
-		position: absolute;
-		left: -3px;
-		top: 25px;
-		content: " ";
-		border-radius: 500%;
-		background: var(--main-color);
-		height: 6px;
-		width: 6px;
-	}
-
-	ul.timeline li .left{
-		position: absolute;
-		width:150px;
-		left: -200px;
-		text-align: right;
-		font-size: 0.8em;
-		line-height: 1em;
-	}
-	ul.timeline li .left .date{
-		font-size: 1.4em;
-	}
-
-
-	ul.timeline li .right{
-		position: relative;
-		z-index: 2;
-		padding: 0 0 20px 30px;
-		width: 100%;
-	}
-	.right:after {
-		content:"";
-		position: absolute;
-		z-index: 1;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-	}
-	/* TESTER QUELLE PARTIE DE LA PAGE IMPOSE LA LARGEUR EN LES COMMENTANT UNE PAR UNE */
-	/* mettre la nav juste après la présentation, en colonne */
-	/* rajouter à chaque section un icone retour au menu */
-	/* reduire la tailles des icones */
-	/* mettre les titres des projets au dessus des textes */
-	/*mettre les hobbies en colonnes*/
-
 }
