@@ -62,7 +62,6 @@ body{
 	color: var(--main-color);
 	font-family: 'louis_george_caferegular', calibri, sans-serif;
 	line-height: 1.4em;
-	min-width: 920px;
 	margin: auto;
 }
 
@@ -117,7 +116,7 @@ header{
 }
 header h1{
 	flex: 1;
-	margin: 20px;
+	margin-left: 20px;
 }
 header nav{flex: 2;}
 header ul{
@@ -125,9 +124,15 @@ header ul{
 	display: flex;
 	justify-content: space-around;
 	/*margin-right: 15px;*/
+	font-size: large;
 }
 header ul li{margin-left: 10px;}
+header ul li #h_brief{margin-left: 0px;}
 header ul li a:hover{color: var(--snd-color);}
+
+#mobile_nav{
+	display: none;
+}
 
 section{
 	display: flex;
@@ -135,7 +140,6 @@ section{
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 100px;
-	/*padding-bottom: 50px;*/
 }
 section h2{
 	text-align: center;
@@ -148,29 +152,29 @@ section h2{
 	border-bottom: 1px solid var(--snd-color);
 }
 
+.more {display: none;}
 .link{
 	width: 15px;
 	height: auto;
 	padding: 3px;
 }
-.more {display: none;}
-
 /* Details */
-/* julienmastrangelo.php (index.php) */
 /* Overview */
 #block1{
 	background: center no-repeat url('img/emse.jpeg');
 	padding-bottom: 0px;
 	display: flex;
+	align-items: center;
 }
 .presentation{
 	width: 50%;
+	max-width: 800px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: flex-start;
-	margin: 50px 0px 50px 50px;
+	margin: 50px 200px 50px 50px;
 	background-color: white;
 }
 #profile_picture{
@@ -182,9 +186,6 @@ section h2{
 	margin: 25px 19px 0px 19px;
 	transform: scale(1);
     transition: transform 400ms;
-	/*&:hover {
-        transform: scale(1.15);
-    }*/
 }
 #profile_picture:hover{
 	transform: scale(1.13);
@@ -243,7 +244,7 @@ section h2{
     left: -3px;
     top: 25px;
     content: " ";
-    border-radius: 500%;
+    border-radius: 100%;
     background: var(--main-color);
     height: 6px;
     width: 6px;
@@ -381,16 +382,8 @@ ul.timeline li .right{
 	justify-content: space-around;
 }
 #hobbies article{
-	width: 27%;
+	width: 28%;
 	text-align: justify;
-}
-
-#embrase{
-	width: 560px;
-	height: 315px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 /*contact*/

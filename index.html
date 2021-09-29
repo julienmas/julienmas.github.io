@@ -4,12 +4,13 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="julienmastrangelo.css">
+	<link rel="stylesheet" type="text/css" media="all and (max-width: 920px)" href="mobile.css">
 	<title>Julien Mastrangelo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body id="julienmastrangelo">
 	<header>
-		<h1><a href="#">Julien Mastrangelo</a></h1>
+		<h1><a href="#">Julien Mastrangeloo</a></h1>
 		<nav>
 			<ul>
 				<li><a href="#brief">About me</a></li>
@@ -29,7 +30,7 @@
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
 				<h3>ENGINEERING STUDENT</h3>
-				<p><mark>Email: </mark> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
+				<p id="mail"><mark>Email: </mark> <a href="mailto:julien.mastrangelo@etu.emse.fr">julien.mastrangelo@etu.emse.fr</a></p>
 				<p><mark>City: </mark>Aix-en-Provence, France</p>
 				<p><mark>Age: </mark>22</p>
 			</div>
@@ -37,18 +38,33 @@
 				<li class="linkedin">
 					<a href="https://www.linkedin.com/in/julien-mastrangelo-5b72a8194/"><img class="icon" src="img/linkedin.png" alt="linkedin" title="LinkedIn"></a>
 				</li>
-				<li id="github">
-					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
+				<li id="mailto">
+					<a href="mailto:julien.mastrangelo@etu.emse.fr"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
 				</li>
 				<li id="cv">
 					<a href="pdf/Julien_MASTRANGELO_CV_2021_in_English.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
-				<li id="mailto">
-					<a href="mailto:julien.mastrangelo@etu.emse.fr"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
+				<li id="github">
+					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
 				</li>
+				
 			</ul>
 		</div>		
 	</section>
+
+	<div id="mobile_nav">
+		<nav>
+			<ul>
+				<li><a href="#brief">About me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#hobbies">Interests</a></li>
+				<!-- <li><a href="#contact">Contact</a></li> -->
+			</ul>
+		</nav>
+	</div>
 
 	<section id="brief">
 		<h2>Hello! I'm Julien</h2>
@@ -59,7 +75,7 @@
 		</p>
 	</section>
 
-	<section id="education" class="history-timeline-container">
+	<section id="education" class="history-timeline-container"> <!-- PUT TITLE AND DATE ON THE RIGHT?-->
 		<h2 class="title">Education</h2>
 
 		<ul class="timeline">
@@ -195,13 +211,12 @@
 		</ul>
 	</section>
 
-	<section id="other_skills">
+	<!-- <section id="other_skills">
 		
-	</section>
+	</section> -->
 
 	<section id="projects">
 		<h2 class="title">Projects</h2>
-		<!--<p>projet robot, blockchain vote (à finir), environment simulation?</p>-->
 		<div class="project" id="entrep">
 			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
 			<div>
@@ -231,7 +246,7 @@
 		</div>
 		<div class="project" id="website">
 			<h3>julienmastrangelo.fr</h3>
-			<p>Personnal website developped with HTML5, CSS3, javascript.</p>
+			<p>Personnal website developped with HTML5, CSS3, and javascript.</p>
 		</div>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
@@ -256,7 +271,7 @@
 				<h3>Musician</h3>
 				<p>
 					I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
-					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band.</a> I am currently the vice-president of the art association (BDA) of my school.
+					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band</a>.
 				</p>
 			</article>
 			<article id="BDE">
@@ -272,8 +287,8 @@
 		</div>
 	</section>
 
-	<section id="embrase"><iframe  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</section>
+	<!-- <section id="embrase"><iframe  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</section> -->
 	
 	<!-- <section id="contact">
 		<h2>Contact</h2>
