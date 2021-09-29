@@ -1,0 +1,97 @@
+/* Mobile phone CSS */
+
+/* rajouter à chaque section un icone retour au menu */
+/* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
+
+
+header{
+	display: none;
+}
+
+section{
+	/* reduce padding left and right to 5%? */
+	padding-top: 1px;
+}
+
+section h2{
+	/* to be updated for mobile*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a{text-decoration: underline;}
+
+#block1{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+.presentation{
+	width: 100%;
+	margin:0 0 0 0;
+}
+@keyframes pp {
+	0% {
+		transform: scale(1.15);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+#profile_picture{
+	width: 35vw;  /* vw: view width (width of the screen) */
+	height: auto;
+	margin: 25px 0 0 0;
+	animation: pp 0.5s linear 0s 1;
+}
+
+#mail{display: none;}
+
+#mobile_nav{ /* change background color ? */
+	display: flex;
+	flex-direction: column;
+	visibility: visible;
+}
+#mobile_nav h1{
+	text-align: center;/* centrer sur la page */
+}
+#mobile_nav nav{
+	display: flex;
+	justify-content: center;
+}
+#mobile_nav ul{
+	margin-right: 40px;
+	list-style-type: none;
+	font-size: x-large;
+	line-height: 1.5em; /* to be adjusted */
+}
+
+#brief p{width: 90%;}
+
+/* Timelines (education & experience) */
+.history-timeline-container{width:80%;}
+.history-timeline-container ul.timeline li{margin-left: 120px;}
+ul.timeline li .left{left: -170px;}
+
+#skills ul li .icon{
+	height: 70px;
+	padding: 30px;
+	z-index: 3;
+}
+
+.project{
+	display: flex;
+	flex-direction: column;
+}
+#img_greenhouse{
+	width: 80vw;
+	height: auto;
+}
+
+#hobbies .content{
+	display: flex;
+	flex-direction: column;
+}
+#hobbies article{
+	width: 90%;
+}
