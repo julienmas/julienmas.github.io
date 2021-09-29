@@ -1,5 +1,10 @@
 /* Mobile phone CSS */
 
+/* variables declaration */
+:root{
+	--main-color: rgb(0,0,106);
+	--snd-color: rgb(220,220,220);
+}
 /* rajouter à chaque section un icone retour au menu */
 /* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
 
@@ -7,7 +12,9 @@
 header{
 	display: none;
 }
-
+body{
+	width: 100vw;
+}
 section{
 	/* reduce padding left and right to 5%? */
 	padding-top: 1px;
@@ -22,6 +29,7 @@ section h2{
 a{text-decoration: underline;}
 
 #block1{
+	background: var(--main-color);
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -42,7 +50,7 @@ a{text-decoration: underline;}
 	width: 35vw;  /* vw: view width (width of the screen) */
 	height: auto;
 	margin: 25px 0 0 0;
-	animation: pp 0.5s linear 0s 1;
+	animation: pp 0.8s linear 0s 1;
 }
 
 #mail{display: none;}
@@ -83,6 +91,7 @@ ul.timeline li .left{left: -170px;}
 	display: flex;
 	flex-direction: column;
 }
+.project h3{text-align: center;}
 #img_greenhouse{
 	width: 80vw;
 	height: auto;
