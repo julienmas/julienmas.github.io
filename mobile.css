@@ -1,17 +1,8 @@
 /* Mobile phone CSS */
 
-/* mettre la nav juste après la présentation, en colonne */
 /* rajouter à chaque section un icone retour au menu */
-/* reduire la tailles des icones */
-/* mettre les titres des projets au dessus des textes */
-/*mettre les hobbies en colonnes*/
 /* Timelines (education & experience) REFAIRE LA TIMELINE POUR AVOIR LA TIMELINE TOUT À GAUCHE ET TOUT LE TEXTE A DROITE*/
-/*rajouter une animation pour que la photo diminue en taille progressivement?*/
 
-
-body{
-	background-color: lightblue;
-}
 
 header{
 	display: none;
@@ -27,6 +18,8 @@ section h2{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+a{text-decoration: underline;}
 
 #block1{
 	height: 100vh;
@@ -93,4 +86,12 @@ ul.timeline li .left{left: -170px;}
 #img_greenhouse{
 	width: 80vw;
 	height: auto;
+}
+
+#hobbies .content{
+	display: flex;
+	flex-direction: column;
+}
+#hobbies article{
+	width: 90%;
 }
