@@ -287,33 +287,30 @@ ul.timeline li .right{
   	bottom: 0;
   	right: 0;
 }
-#mines .right:hover:after{
+.right:hover:after{
+	z-index: -1;
 	opacity: 0.2;
+
+}
+#mines .right:hover:after{
 	background: url(img/minesste.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: -1;
 }
 #Qualcomm .right:hover:after{
-	opacity: 0.2;
 	background: url(img/qualcomm.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: -1;
 }
 #NPS .right:hover:after{
-	opacity: 0.2;
 	background: url(img/NPS_Diesel.jpg) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: -1;
 }
 #CNRS .right:hover:after{
-	opacity: 0.2;
 	background: url(img/cnrs.png) no-repeat;
 	background-size: contain;
 	background-position: center;
-	z-index: -1;
 }
 
 /* skills */
