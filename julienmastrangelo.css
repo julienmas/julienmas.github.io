@@ -213,6 +213,10 @@ section h2{
 	width: 30px;
 	height: auto;	
 }
+.home{
+	display: none;
+}
+
 /*#brief {padding-top: 0px;}*/
 #brief p{
 	width: 60%;
@@ -220,7 +224,6 @@ section h2{
 	line-height: 1.5em;
 	text-align: center;
 }
-
 /* Timelines (education & experience) */
 .history-timeline-container{
 	width:70%;

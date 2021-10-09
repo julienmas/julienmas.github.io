@@ -24,6 +24,7 @@ section h2{
 	/* to be updated for mobile*/
 	padding-top: 10px;
 	padding-bottom: 10px;
+	display: flex;
 }
 
 a{text-decoration: underline;}
@@ -72,6 +73,13 @@ a{text-decoration: underline;}
 	list-style-type: none;
 	font-size: x-large;
 	line-height: 1.5em; /* to be adjusted */
+}
+
+.home{
+	display: flex;
+	width: 28px;
+	height: auto;
+	padding-right: 20px;
 }
 
 #brief p{width: 90%;}
