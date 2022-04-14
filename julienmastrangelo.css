@@ -297,6 +297,11 @@ ul.timeline li .right{
 	background-size: contain;
 	background-position: center;
 }
+#Polymtl .right:hover:after{
+	background: url(img/polymtl.jpeg) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
 #Qualcomm .right:hover:after{
 	background: url(img/qualcomm.png) no-repeat;
 	background-size: contain;
