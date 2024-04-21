@@ -29,10 +29,10 @@
 			<img id="profile_picture" src="img/julien.jpg" />
 			<div class="details">
 				<h2>Julien Mastrangelo</h2>
-				<h3>ELECTRONIC ENGINEERING STUDENT</h3>
+				<h3>ELECTRONIC PHD STUDENT</h3>
 				<p id="mail"><mark>Email: </mark> <a href="mailto:julien.mastrangelo@protonmail.com">julien.mastrangelo@protonmail.com</a></p>
-				<p><mark>City: </mark>Aix-en-Provence, France</p>
-				<p><mark>Age: </mark>22</p>
+				<p><mark>City: </mark>Paris, France</p>
+				<p><mark>Age: </mark>24</p>
 			</div>
 			<ul class="social_network">
 				<li class="linkedin">
@@ -42,7 +42,7 @@
 					<a href="mailto:julien.mastrangelo@protonmail.com"><img class="icon" src="img/email.png" alt="mail" title="e-mail me!"></a>
 				</li>
 				<li id="cv">
-					<a href="pdf/Julien_MASTRANGELO_CV_2022_without_phone.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
+					<a href="pdf/Julien_MASTRANGELO_CV_2024_without_phone.pdf"><img class="icon" src="img/pdf.png" alt="pdf document" title="pdf version of my CV"></a>
 				</li>
 				<li id="github">
 					<a href="https://github.com/julienmas"><img class="icon" src="img/github.png" alt="github" title="github"></a>
@@ -69,10 +69,7 @@
 	<section id="brief">
 		<h2><a href="#mobile_nav"><img class="icon home" src="img/home.png" alt="menu icon" title="back to menu"></a>Hello! I'm Julien</h2>
 		<p>
-			I am a rigorous and motivated <strong>engineering student from l’Ecole des Mines de St-Etienne</strong>.
-			I am recognized for my ability to fit into a work team.
-			I am looking for a <strong>PhD</strong>, as I want to use my technical and intellectual skills to contribute to scientific research.
-			I am most interested in astrophysics and particle physics.
+			I'm a PhD student at the CEA (French Alternative Energies and Atomic Energy Commission) in my 2nd year. I have an engineering degree in microelectronics and computer science. I'm looking for a position as an electronics engineer.
 		</p>
 	</section>
 
@@ -162,6 +159,28 @@
 	<section id="experience" class="history-timeline-container">
 		<h2 class="title"><a href="#mobile_nav"><img class="icon home" src="img/home.png" alt="menu icon" title="back to menu"></a>Experience</h2>
 		<ul class="timeline">
+			<li class="timeline_element" id="CEA">
+				<div class="container left">
+					<p class="date">2022 - 2025</p>
+					<h3 class="job">PhD Student</h3>
+				</div>
+				<div class="container right">
+					<h3 class="name">CEA</h3>
+					<p class="description">
+						PhD subject: <i>Exploration of heterogeneous high data rate streamed and programmable electronic architectures for real-time applications in nuclear instrumentation</i>.
+
+					</p>
+					<p class="description">
+						I work on the possibility of executing heavy signal treatments algorithms in real-time on novel electronic architectures such as GPUs. 
+					</p>
+					<!-- <div class="more">
+						<p>
+
+						</p>
+					</div> 
+					<button class="btn">Read more</button> -->
+				</div>
+			</li>
 			<li class="timeline_element" id="Polymtl">
 				<div class="container left">
 					<p class="date">2022</p>
@@ -262,6 +281,7 @@
 		<ul>
 			<li><img class="icon" src="img/c.png" /><p>C language</p></li>
 			<li><img class="icon" src="img/cpp.png" /><p>C++ language</p></li>
+			<li><img class="icon" src="img/cuda.png" /><p>CUDA C/C++</p></li>
 			<li><img class="icon" src="img/python.png" /><p>Python 3</p></li>
 			<li><img class="icon" src="img/vhdl.png" /><p>VHDL</p></li>
 			<li><img class="icon" src="img/stm32cube.png" /><p>STM32Cube</p></li>
@@ -269,28 +289,29 @@
 			<li><img class="icon" src="img/sql.png"><p>SQL</p></li>
 			<li><img class="icon" src="img/html5.png" /><p>HTML5</p></li>
 			<li><img class="icon" src="img/css3.png" /><p>CSS3</p></li>
-			<li><img class="icon" src="img/ocaml2.png" /><p>OCaml</p></li>
+			<li><img class="icon" src="img/latex.jpeg" /><p>LateX</p></li>
+			<!-- <li><img class="icon" src="img/ocaml2.png" /><p>OCaml</p></li> -->
 			<li><img class="icon" src="img/packet-tracer.png" /><p>Cisco Packet Tracer</p></li>
 		</ul>
 	</section>
 
 	<!-- <section id="other_skills">
-		
+
 	</section> -->
 
 	<section id="projects">
 		<h2 class="title"><a href="#mobile_nav"><img class="icon home" src="img/home-white.png" alt="menu icon" title="back to menu"></a>Projects</h2>
 		<div class="project" id="passwords_wallet">
 			<h3>Password wallet</h3>
-			<p class="content">Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption. 
+			<p class="content">Password wallet is C-coded program to save passwords based on SHA-256 hash function and XOR-encryption.
 			Its code is available <a href="https://github.com/julienmas/password_wallet/">here</a>.</p>
 		</div>
 		<div class="project" id="chatrooms">
 			<h3>C Messenger</h3>
 			<p class="content">
-				<a href="https://www.linkedin.com/in/matthias-hallgren-65b9041a9/">Matthias Hallgren</a> and I created a chatrooms system, similar to what Facebook Messenger does. 
-				We used a static multithreaded Client/Server architecture. 
-				Client and server communicate with TCP/IP sockets. 
+				<a href="https://www.linkedin.com/in/matthias-hallgren-65b9041a9/">Matthias Hallgren</a> and I created a chatrooms system, similar to what Facebook Messenger does.
+				We used a static multithreaded Client/Server architecture.
+				Client and server communicate with TCP/IP sockets.
 				Its code is available <a href="https://github.com/julienmas/CMessenger">here</a>.
 			</p>
 		</div>
@@ -298,18 +319,15 @@
 			<h3>VHDL modelisation of the AES-128 and design on FPGA</h3>
 			<div class="content">
 				<p>
-					Last year, as a school project, I modelised the encryption algorithm AES-128 using the hardware description language VHDL and the modelisation software ModelSim.
+					As a school project, I modelised the encryption algorithm AES-128 using the hardware description language VHDL and the modelisation software ModelSim.
 					I coded the four basic operations that make up the AES, the key expander function and the associated FSM.
-					The associated design report can be found <a href="pdf/julien_mastrangelo-rapport_aes.pdf">here</a> in French.
-				</p>
-				<p>
-					This year, I am continuing this school project by implementing this AES on an FPGA.
-				</p>
+					The associated design report can be found <a href="pdf/julien_mastrangelo-rapport_aes.pdf">here</a> in French. Then, I implemented this AES algorithm on an FPGA.
+				</p> 
 			</div>
 		</div>
 		<div class="project" id="website">
-			<h3>julienmastrangelo.fr</h3>
-			<p class="content">Personal website developped with HTML5, CSS3, and javascript.</p>
+			<h3>julienmas.github.io</h3>
+			<p class="content">Personal website developped with HTML5, CSS3, and javascript. The code of this website is available <a href="https://github.com/julienmas/julienmas.github.io">here</a>.</p>
 		</div>
 		<div class="project" id="entrep">
 			<h3>Les Entrepreunariales <a href="https://www.lesentrep.fr/" target="_blank"><img id="entrep_logo" src="img/logo-les-entrep.png"/></a></h3>
@@ -332,8 +350,8 @@
 		<div class="project" id="car">
 			<h3>Autonomous car model</h3>
 			<p class="content">
-				I built a model car capable of staying between 2 laser beams independently with my teammate Eliott. 
-				I analyzed its trajectory thanks to a simulation of the car coded with Python. 
+				I built a model car capable of staying between 2 laser beams independently with my teammate Eliott.
+				I analyzed its trajectory thanks to a simulation of the car coded with Python.
 				You can see more about it <a href="car.html">here</a>.
 			</p>
 		</div>
@@ -341,31 +359,34 @@
 
 	<section id="hobbies">
 		<h2 class="title"><a href="#mobile_nav"><img class="icon home" src="img/home.png" alt="menu icon" title="back to menu"></a>Interests</h2>
-		<div class="content">	
+		<div class="content">
 			<article id="musician">
 				<h3>Musician</h3>
 				<p>
 					I play the trumpet since I am 7 years old. I played an opera (Aïda from Verdi) in Orléans’s Zénith.<br/>
-					I also play bass guitar in a band and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band</a>.
+					I also play bass guitar in a band (<a href="https://www.instagram.com/45tourslegroupe/">45Tours</a>) and guitar. <a href="https://www.youtube.com/watch?v=h4bz4c00ybo">Here is the clip of "Embrasé", a song I made with my band</a>.
 				</p>
 				<!-- add videoclip of embrasé-->
 			</article>
-			<article id="BDE">
-				<h3>Student Union (BDE)</h3>
-				<p>I am an active member of Mines St-Etienne studion union (BDE - Bureau des élèves). This society organizes major events on the campus.</p>
-				<!-- add logo of BDE -->
+			<article id="">
+				<h3>Volunteer maths teacher</h3>
+				<p>
+					Once a week, I help kids from my neighborhood with their maths assignement in a community café.
+				</p>
 			</article>
-			<article id="computer_science_society">
-				<h3>Member of Minitel</h3>
-				<p>Minitel is Mines St-Etienne's computer science and computer network society. The society manages the student residence network.</p>			
-				<!-- add logo of minitel -->
+			<article id="">
+				<h3>Nature enthusiast</h3>
+				<p>
+					I have an interest in hikings (Gorges du Verdon, Alps, ...).
+					I also volunteered in an organic farm with <a href="https://wwoof.net/">WWOOF</a> organisation to learn about organic farming.
+				</p>
 			</article>
 		</div>
 	</section>
 
 	<!-- <section id="embrase"><iframe  src="https://www.youtube.com/embed/h4bz4c00ybo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</section> -->
-	
+
 	<!-- <section id="contact">
 		<h2>Contact</h2>
 		<div class="content">
@@ -403,8 +424,9 @@
 		<ul>
 			<li>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> and <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
 			<li>Background picture : © Cedric Daya</li>
+			<li>Profile picture : © Zachary Thevenin, <a href="https://zakphoto.ca/">zakphoto.ca</a></li>
 		</ul>
-		Last updated : 14/04/2022
+		Last updated : 21/04/2024
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

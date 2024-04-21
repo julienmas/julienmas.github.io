@@ -65,7 +65,7 @@ body{
 	margin: auto;
 }
 
-p{text-indent: 30px;}
+/*p{text-indent: 30px;} */
 mark{
 	font-weight: bold;
 	background-color: white;
@@ -294,6 +294,11 @@ ul.timeline li .right{
 }
 #mines .right:hover:after{
 	background: url(img/minesste.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#CEA .right:hover:after{
+	background: url(img/CEA.png) no-repeat;
 	background-size: contain;
 	background-position: center;
 }
